@@ -1,0 +1,96 @@
+[
+    {
+        "word": "airplane",
+        "translation": "A vehicle that flies and holds a lot of people. (noun)"
+    },
+    {
+        "word": "Airport",
+        "translation": "A building for use by people who use an airplane for transport. (noun"
+    },
+    {
+        "word": "Baggage",
+        "translation": "The items which a person takes with them on a journey. (noun)"
+    },
+    {
+        "word": "Check-in",
+        "translation": "An area which deals with customer documents prior to travelling. (noun)"
+    },
+    {
+        "word": "Coach",
+        "translation": "A large vehicle for carrying many people, like a bus but for long journeys. (noun)"
+    },
+    {
+        "word": "Commute",
+        "translation": "The act of travelling from a fixed location to another destination regularly. (verb)"
+    },
+    {
+        "word": "Crew",
+        "translation": "The people who work on board a plane or ship. (noun)"
+    },
+    {
+        "word": "Delay",
+        "translation": "When a method of transport is not running to the time originally anticipated.  (noun)"
+    },
+    {
+        "word": "Depart",
+        "translation": "To move from a place where a person is currently situated. (verb)"
+    },
+    {
+        "word": "Departure gate",
+        "translation": "An exit which enables travellers to enter an airplane. (noun)"
+    },
+    {
+        "word": "Direct",
+        "translation": "To travel to a destination without making any stops. (adjective)"
+    },
+    {
+        "word": "Flight",
+        "translation": "The act of an airplane making its way to its destination. (noun)"
+    },
+    {
+        "word": "Passengers",
+        "translation": "The people who use a mode of transport controlled by another person. (noun)"
+    },
+    {
+        "word": "Passport",
+        "translation": "An important document necessary for travel. (noun)"
+    },
+    {
+        "word": "Take-off",
+        "translation": "When an airplane leaves the ground to begin flying through the sky. (verb)"
+    },
+    {
+        "word": "Ticket",
+        "translation": "A piece of paper or card used as documentation to allow travel. (noun)"
+    },
+    {
+        "word": "Ticket counter",
+        "translation": "A service desk which sell tickets or deals with ticket enquiries. (noun)"
+    },
+
+    {
+        "word": "Ticket inspector",
+        "translation": "A person who checks passenger’s tickets for validity. (noun)"
+    },
+
+    {
+        "word": "Ticket machine",
+        "translation": "An electronic device which enables customers to purchase tickets. (noun)"
+    },
+
+    {
+        "word": "Tracks",
+        "translation": "The metal runners that direct a train. (noun)"
+    },
+
+    {
+        "word": "Train",
+        "translation": "A vehicle that travels on a railway tracks. (noun)"
+    },
+
+    {
+        "word": "Train station",
+        "translation": "A building used to receive people who travel by train. (noun)"
+    }
+
+]

@@ -10,6 +10,8 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { RouterModule, Routes } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ChooseWordComponent } from './components/choose-word/choose-word.component';
+import { FormsModule } from '@angular/forms';
 
 const routes: Routes = [
   { path: '', redirectTo: 'dictionary', pathMatch: 'full'},
@@ -28,10 +30,12 @@ const routes: Routes = [
     ExplanationsComponent,
     LearningGameComponent,
     AssessmentComponent,
-    ProfileComponent
+    ProfileComponent,
+    ChooseWordComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     NgbModule,
     BrowserAnimationsModule,
     RouterModule.forRoot(routes)

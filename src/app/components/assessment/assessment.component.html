@@ -1,1 +1,9 @@
-<p>assessment works!</p>
+Choose which game to start:
+<select [(ngModel)]="gameChoice">
+    <option *ngFor='let choice of gameChoiceValue' [ngValue]="choice.id"> {{choice.label}}</option>
+</select> <br><br>
+
+
+<div *ngIf="gameChoice == 1">
+    <app-choose-word></app-choose-word>
+</div>
