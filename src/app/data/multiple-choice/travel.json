@@ -1,0 +1,82 @@
+[
+    {
+        "sentence": "We still have to ___ a hotel and to buy our plane tickets",
+        "values": [
+            "book",
+            "make"
+        ],
+        "solution": "book"
+    },
+    {
+        "sentence": " I'm leaving tomorrow and I still haven't ___ my suitcases.",
+        "values": [
+            "packed",
+            "stacked"
+        ],
+        "solution": "packed"
+    },
+    {
+        "sentence": "I always get great deals on hotels because my friend is a ___ agent",
+        "values": [
+            "trip",
+            "travel"
+        ],
+        "solution": "travel"
+    },
+    {
+        "sentence": "A 'bed and ___' is a private home which takes in guests.",
+        "values": [
+            "breakfast",
+            "food"
+        ],
+        "solution": "breakfast"
+    },
+    {
+        "sentence": "It is often very expensive to travel during ___ season",
+        "values": [
+            "expensive",
+            "peak"
+        ],
+        "solution": "in"
+    },
+    {
+        "sentence": "Arranging  ___ means arranging a place to stay (like a hotel, guest house, etc.)",
+        "values": [
+            "acclimations",
+            "accommodations"
+        ],
+        "solution": "accommodations"
+    },
+    {
+        "sentence": "Travel agents often ask you whether or not you would like to buy traveler's ___ ",
+        "values": [
+            "insurance",
+            "policy"
+        ],
+        "solution": "insurance"
+    },
+    {
+        "sentence": "A ___ tour/holiday is one that includes air, hotel, and often food.",
+        "values": [
+            "combined",
+            "package"
+        ],
+        "solution": "package"
+    },
+    {
+        "sentence": "A  ___ flight requires a passenger to change from one plane to another.",
+        "values": [
+            "connect",
+            "connecting"
+        ],
+        "solution": "connecting"
+    },
+    {
+        "sentence": "If you lose something at an airport, you should check at the airport's lost-and- ___ office.",
+        "values": [
+            "find",
+            "found"
+        ],
+        "solution": "quitting"
+    }
+]

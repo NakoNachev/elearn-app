@@ -1,9 +1,9 @@
 Choose which game to start:
-<select [(ngModel)]="gameChoice">
+<select [(ngModel)]="gameChoice" (ngModelChange)="setGameData($event)">
     <option *ngFor='let choice of gameChoiceValue' [ngValue]="choice.id"> {{choice.label}}</option>
 </select> <br><br>
 
 
-<div *ngIf="gameChoice == 1">
-    <app-choose-word></app-choose-word>
+<div *ngIf="gameChoice">
+    <app-choose-word [data]="gameData"></app-choose-word>
 </div>

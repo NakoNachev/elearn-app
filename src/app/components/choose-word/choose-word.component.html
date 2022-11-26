@@ -1,4 +1,4 @@
-<div *ngFor="let sentence of sentences; let i = index ">
+<div *ngFor="let sentence of data; let i = index ">
     <span>{{sentence.sentence}}
         <select  aria-label="Default select example">
             <option *ngFor="let option of sentence.values"> {{option}}</option>

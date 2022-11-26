@@ -1,6 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import  data from '../../data/work-choose-right-word.json'
-
+import { Component, Input, OnInit } from '@angular/core';
 @Component({
   selector: 'app-choose-word',
   templateUrl: './choose-word.component.html',
@@ -8,7 +6,8 @@ import  data from '../../data/work-choose-right-word.json'
 })
 export class ChooseWordComponent implements OnInit {
 
-  sentences = data.data
+  @Input() data
+
   constructor() { }
 
   ngOnInit(): void {
