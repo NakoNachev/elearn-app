@@ -20,8 +20,4 @@ export class AssessmentComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  test() {
-    console.log(this.gameChoice)
-  }
-
 }

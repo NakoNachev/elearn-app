@@ -1,0 +1,128 @@
+[
+    {
+        "word": "accounting",
+        "translation": "Buchhaltung",
+        "wordType": "noun",
+        "transcription": "əˈkaʊntɪŋ"
+    },
+    {
+        "word": "stressful",
+        "translation": "anstrengend",
+        "wordType": "adjective",
+        "transcription": "ˈstrɛsf(ə)l"
+    },
+    {
+        "word": "stressed-out",
+        "translation": "stressgeplagt",
+        "wordType": "adjective",
+        "transcription": "strɛst -aʊt"
+    },
+    {
+        "word": "hired",
+        "translation": "angemietet",
+        "wordType": "adjective",
+        "transcription": "haɪəd"
+    },
+    {
+        "word": "fired",
+        "translation": "entlassen",
+        "wordType": "adjective",
+        "transcription": "ˈfaɪəd"
+    },
+    {
+        "word": "co-workers",
+        "translation": "Mitarbeiter",
+        "wordType": "noun",
+        "transcription": "kəʊ-ˈwɜːkəz"
+    },
+    {
+        "word": "commute",
+        "translation": "pendeln",
+        "wordType": "verb",
+        "transcription": "kəˈmjuːt"
+    },
+    {
+        "word": "employees",
+        "translation": "Arbeitnehmer",
+        "wordType": "noun",
+        "transcription": "ˌɛmplɔɪˈiːz"
+    },
+    {
+        "word": "employer",
+        "translation": "Arbeitgeber",
+        "wordType": "noun",
+        "transcription": "ɪmˈplɔɪə"
+    },
+    {
+        "word": "employed",
+        "translation": "angestellt",
+        "wordType": "adjective",
+        "transcription": "ɪmˈplɔɪd"
+    },
+    {
+        "word": "lunchroom",
+        "translation": "Kantine",
+        "wordType": "noun",
+        "transcription": "ˈlʌnʧrʊm"
+    },
+    {
+        "word": "dress code",
+        "translation": "Dress-Code",
+        "wordType": "noun",
+        "transcription": "drɛs -kəʊd"
+    },
+    {
+        "word": "to quit",
+        "translation": "kündigen",
+        "wordType": "verb",
+        "transcription": "tə kwɪt"
+    },
+    {
+        "word": "briefcase",
+        "translation": "Aktenkoffer",
+        "wordType": "noun",
+        "transcription": "ˈbriːfˌkeɪs"
+    },
+    {
+        "word": "budget",
+        "translation": "Budget",
+        "wordType": "noun",
+        "transcription": "ˈbʌʤɪt"
+    },
+    {
+        "word": "management",
+        "translation": "Management",
+        "wordType": "noun",
+        "transcription": "ˈmænɪʤmənt"
+    },
+    {
+        "word": "salary",
+        "translation": "Gehalt",
+        "wordType": "noun",
+        "transcription": "ˈsæləri"
+    },
+    {
+        "word": "negotiation",
+        "translation": "Verhandlung",
+        "wordType": "noun",
+        "transcription": "nɪˌgəʊʃɪˈeɪʃən"
+    },
+    {
+        "word": "order",
+        "translation": "Bestellung",
+        "wordType": "noun",
+        "transcription": "ˈɔːdə"
+    },
+    {
+        "word": "quarter",
+        "translation": "Quartal",
+        "wordType": "noun",
+        "transcription": "ˈkwɔːtə"
+    },
+    {
+        "word": "spreadsheet",
+        "translation": "Tabelle",
+        "wordType": "noun",
+        "transcription": "ˈsprɛdʃiːt"
+    }
+]

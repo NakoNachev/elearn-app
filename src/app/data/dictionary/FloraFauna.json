@@ -1,0 +1,112 @@
+[
+    {
+        "word": "Reptile",
+        "translation": "Reptil",
+        "wordType": "noun"
+    },
+    {
+        "word": "Amphibian",
+        "translation": "Amphibien",
+        "wordType": "noun"
+    },
+    {
+        "word": "Mammals",
+        "translation": "Säugetiere",
+        "wordType": "noun"
+    },
+    {
+        "word": "Predator",
+        "translation": "Raubtier",
+        "wordType": "noun"
+    },
+    {
+        "word": "Prey",
+        "translation": "Beutetier",
+        "wordType": "noun"
+    },
+    {
+        "word": "Venomous",
+        "translation": "giftig",
+        "wordType": "adjective"
+    },
+    {
+        "word": "Poisonous",
+        "translation": "giftig",
+        "wordType": "adjective"
+    },
+    {
+        "word": "Cobra",
+        "translation": "Kobra",
+        "wordType": "noun"
+    },
+    {
+        "word": "Frog",
+        "translation": "Frosch",
+        "wordType": "noun"
+    },
+    {
+        "word": "Lion",
+        "translation": "Löwe ",
+        "wordType": "noun"
+    },
+    {
+        "word": "Crocodile",
+        "translation": "Krokodil",
+        "wordType": "noun"
+    },
+    {
+        "word": "Carnivore",
+        "translation": "Fleischfresser",
+        "wordType": "noun"
+    },
+    {
+        "word": "Herbivore",
+        "translation": "Pflanzenfresser",
+        "wordType": "noun"
+    },
+    {
+        "word": "Omnivore",
+        "translation": "Allesfresser",
+        "wordType": "noun"
+    },
+    {
+        "word": "Tree",
+        "translation": "Baum",
+        "wordType": "noun"
+    },
+    {
+        "word": "Rose",
+        "translation": "Rose",
+        "wordType": "noun"
+    },
+    {
+        "word": "Thorns",
+        "translation": "Dornen",
+        "wordType": "noun"
+    },
+
+    {
+        "word": "Daisy",
+        "translation": "Gänseblümchen",
+        "wordType": "noun"
+    },
+
+    {
+        "word": "Weed",
+        "translation": "Unkraut",
+        "wordType": "noun"
+    },
+
+    {
+        "word": "Dandelion",
+        "translation": "Löwenzahn",
+        "wordType": "noun"
+    },
+
+    {
+        "word": "Deadly nightshade ",
+        "translation": "Tollkirsche",
+        "wordType": "noun"
+    }
+
+]
