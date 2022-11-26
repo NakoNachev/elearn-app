@@ -1,11 +1,6 @@
 <br>
-<!-- Please choose a topic:
 
-<select [(ngModel)]="chosenTopic" (ngModelChange)="setDictionaryData($event)">
-    <option *ngFor='let choice of topicChoiceValues' [ngValue]="choice.id"> {{choice.label}}</option>
-</select> <br><br> -->
-
-<div class="container">
+<div class="container-fluid">
     Please choose a topic:
 
     <select [(ngModel)]="chosenTopic" (ngModelChange)="setDictionaryData($event)">
@@ -16,11 +11,6 @@
             <ul class="list-group">
                 <li *ngFor="let word of dictionaryData" style="cursor: pointer" class="list-group-item"
                     (click)="chooseWord(word)">{{word.word}}</li>
-                <!-- <li class="list-group-item active">Cras justo odio</li>
-                <li class="list-group-item">Dapibus ac facilisis in</li>
-                <li class="list-group-item">Morbi leo risus</li>
-                <li class="list-group-item">Porta ac consectetur ac</li>
-                <li class="list-group-item">Vestibulum at eros</li> -->
             </ul>
         </div>
         <div class="col-5" *ngIf="chosenWord">
@@ -29,14 +19,5 @@
 
             </app-word-card>
         </div>
-        <!-- <div class="col-sm">
-            One of three columns
-        </div> -->
     </div>
 </div>
-
-<!-- <div *ngIf="chosenTopic">
-    <app-word-card [word]="'test'" [wordType]="'test2'" [translation]="'test3'">
-
-    </app-word-card>
-</div> -->

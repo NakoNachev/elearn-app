@@ -2,16 +2,16 @@
     {
         "sentence": "This job is too ___",
         "values": [
-            "stressful",
-            "stressed-out"
+            "stressed-out",
+            "stressful"
         ],
         "solution": "stressful"
     },
     {
         "sentence": "There's a lot of work, but I can ___ it",
         "values": [
-            "handle",
-            "deal"
+            "deal",
+            "handle"
         ],
         "solution": "handle"
     },
@@ -26,8 +26,8 @@
     {
         "sentence": "They ___ two of my co-workers, and I'm afraid I might be next",
         "values": [
-            "fired",
-            "failed"
+            "failed",
+            "fired"
         ],
         "solution": "fired"
     },
@@ -42,8 +42,8 @@
     {
         "sentence": "My ___ (= the time it takes me to get to work) isn't so bad ",
         "values": [
-            "commute",
-            "communication"
+            "communication",
+            "commute"
         ],
         "solution": "commute"
     },

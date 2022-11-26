@@ -1,7 +1,14 @@
-<div *ngFor="let sentence of data; let i = index ">
-    <span>{{sentence.sentence}}
-        <select  aria-label="Default select example">
-            <option *ngFor="let option of sentence.values"> {{option}}</option>
-        </select>
-    </span>
+<div class="container-fluid">
+
+    <div *ngFor="let sentence of data; let i = index ">
+        <span>{{sentence.sentence}}
+            <select aria-label="Default select example" (change)="changeAnswer($event.target.value, i)">
+                <option *ngFor="let option of sentence.values"> {{option}}</option>
+            </select>
+        </span>
+        <span *ngIf="showAnswers" style="color: green"> {{sentence.solution}}</span>
+    </div>
+    <br>
+    <button type="button" class="btn btn-outline-primary" (click)="submit()">Submit</button> 
+    <button type="button" style="margin-left: 2px;" class="btn btn-outline-primary" (click)="showHideAnswers()">Show/Hide answers</button>
 </div>

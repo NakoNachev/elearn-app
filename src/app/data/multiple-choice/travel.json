@@ -37,7 +37,7 @@
             "expensive",
             "peak"
         ],
-        "solution": "in"
+        "solution": "peak"
     },
     {
         "sentence": "Arranging  ___ means arranging a place to stay (like a hotel, guest house, etc.)",
@@ -77,6 +77,6 @@
             "find",
             "found"
         ],
-        "solution": "quitting"
+        "solution": "found"
     }
 ]
