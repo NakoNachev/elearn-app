@@ -2,251 +2,301 @@
     {
         "word": "sunny",
         "translation": "sonnig",
-        "wordType": "adjective"
+        "wordType": "adjective", 
+		"transcription": "ˈsʌni"
     },
     {
         "word": "cloudy",
         "translation": "wolkig",
-        "wordType": "adjective"
+        "wordType": "adjective",
+		"transcription": "ˈklaʊdi"
     },
     {
         "word": "overcast",
         "translation": "bedeckt",
-        "wordType": "adjective"
+        "wordType": "adjective",
+		"transcription": "ˈəʊvəkɑːst"
     },
     {
         "word": "rainy",
         "translation": "regnerisch",
-        "wordType": "adjective"
+        "wordType": "adjective",
+		"transcription": "ˈreɪni"
     },
     {
         "word": "snowy",
         "translation": "verschneit",
-        "wordType": "adjective"
+        "wordType": "adjective",
+		"transcription": "ˈsnəʊi"
     },
     {
         "word": "foggy",
         "translation": "neb(e)lig",
-        "wordType": "adjective"
+        "wordType": "adjective",
+		"transcription": "ˈfɒgi"
     },
     {
         "word": "windy",
         "translation": "windig",
-        "wordType": "adjective"
+        "wordType": "adjective",
+		"transcription": "ˈwɪndi"
     },
     {
         "word": "hot",
         "translation": "heiß",
-        "wordType": "adjective"
+        "wordType": "adjective",
+		"transcription": "hɒt"
     },
     {
         "word": "warm",
         "translation": "warm",
-        "wordType": "adjective"
+        "wordType": "adjective",
+		"transcription": "wɔːm"
     },
     {
         "word": "cold",
         "translation": "kalt",
-        "wordType": "adjective"
+        "wordType": "adjective",
+		"transcription": "kəʊld"
     },
     {
         "word": "season",
         "translation": "Jahresziet",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈsiːzn"
     },
     {
         "word": "continent",
         "translation": "Kontinent",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈkɒntɪnənt"
     },
     {
         "word": "ocean",
         "translation": "Ozean",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈəʊʃən"
     },
     {
         "word": "Earth",
         "translation": "Erde",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈɜːθ"
     },
     {
         "word": "Europe",
         "translation": "Europa",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈjʊərəp"
     },
     {
         "word": "Africa",
         "translation": "Afrika",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈæfrɪkə"
     },
     {
         "word": "North America",
         "translation": "Nordamerika",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "nɔːθ əˈmɛrɪkə"
     },
     {
         "word": "South America",
         "translation": "Südamerika",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "saʊθ əˈmɛrɪkə"
     },
     {
         "word": "Asia",
         "translation": "Asien",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈˈeɪʒə"
     },
     {
         "word": "Australia",
         "translation": "Australien",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ɒˈstreɪliːə"
     },
     {
         "word": "Antarctica",
         "translation": "Antarktis/Antarktika",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˌænˈtɑːktɪkə"
     },
     {
         "word": "west",
         "translation": "West",
-        "wordType": "adjective"
+        "wordType": "adjective",
+		"transcription": "wɛst"
     },
     {
         "word": "east",
         "translation": "Ost",
-        "wordType": "adjective"
+        "wordType": "adjective",
+		"transcription": "iːst"
     },
     {
         "word": "north",
         "translation": "Nord",
-        "wordType": "adjective"
+        "wordType": "adjective",
+		"transcription": "nɔːθ"
     },
     {
         "word": "south",
         "translation": "Süd",
-        "wordType": "adjective"
+        "wordType": "adjective",
+		"transcription": "saʊθ"
     },
     {
         "word": "Compass",
         "translation": "Kompass",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈkʌmpəs"
     },
    {
         "word": "Arctic ocean",
         "translation": "Arktische Ozean",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈɑːktɪk ˈəʊʃən"
     },
     {
         "word": "Southern ocean",
         "translation": "Südlicher Ozean",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈsʌðən ˈəʊʃən"
     },
     {
         "word": "Indian ocean",
         "translation": "Indischer Ozean ",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈɪndiən ˈəʊʃən"
     },
     {
         "word": "Atlantic ocean",
         "translation": "Atlantischer Ozean",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ətˈlæntɪk ˈəʊʃən"
     },
     {
         "word": "Pacific ocean",
         "translation": "Pazifische Ozean",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "pəˈsɪfɪk ˈəʊʃən"
     },
    {
         "word": "water",
         "translation": "Wasser",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈwɔːtə"
     },
    {
         "word": "sea",
         "translation": "Meer",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "siː"
     },
    {
         "word": "ocean",
         "translation": "Ozean",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈəʊʃən"
     },
    {
         "word": "lake",
         "translation": "See",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "leɪk"
     },
     {
         "word": "river",
         "translation": "Fluss",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈrɪvə"
     },
     {
         "word": "swamp",
         "translation": "Moor",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "swɒmp"
     },
     {
         "word": "moon",
         "translation": "Mond",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈmuːn"
     },
     {
         "word": "sun",
         "translation": "Sonne",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "sʌn"
     },
     {
         "word": "temperature",
         "translation": "Temperatur",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈtɛmprɪʧə"
     },
    {
         "word": "parallel",
         "translation": "Parallele",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈpærəlɛl"
     },
    {
         "word": "meridian",
         "translation": "Meridian",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "məˈrɪdɪən"
     },
    {
         "word": "latitude",
         "translation": "Breitengrad",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈlætɪtjuːd"
     },
    {
         "word": "longitude",
         "translation": "Längengrad",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈlɒnʤɪtjuːd"
     },
    {
         "word": "height",
         "translation": "Höhe",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "haɪt"
     },
    {
         "word": "volcano",
         "translation": "Vulkan",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "vɒlˈkeɪnəʊ"
     },
    {
         "word": "flag",
         "translation": "Flagge",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "flæg"
     },
    {
         "word": "peak",
         "translation": "Gipfel",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "piːk"
     },
    {
         "word": "desert",
         "translation": "Wüste",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈdɛzət"
     },
     {
         "word": "mountain",
         "translation": "Gebirge",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈmaʊntɪn"
     }
 ]

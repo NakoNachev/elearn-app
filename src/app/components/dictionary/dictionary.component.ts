@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import travelData from '../../data/dictionary/travel.json'
 import floraFauna from '../../data/dictionary/FloraFauna.json'
 import office from '../../data/dictionary/office.json'
-import { DictionaryData } from 'app/models/dictionary-data.model';
-import { TopicChoice } from 'app/models/topic-choice.model';
 import weatherClimateGeo from '../../data/dictionary/weather-climate-geography.json'
 import { CookieService } from 'app/services/cookie.service';
+import { TopicChoice } from 'app/models/topic-choice.model';
+import { DictionaryData } from 'app/models/dictionary-data.model';
 
 @Component({
   selector: 'app-dictionary',
