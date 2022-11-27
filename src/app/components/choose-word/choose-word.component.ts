@@ -15,6 +15,7 @@ export class ChooseWordComponent implements OnInit, OnChanges {
 
   @Input() data: MultipleChoiceData[]
   @Input() gameId: number
+  @Input() gameType: string
 
   private currentAnswers: string[]
   public showAnswers: boolean = false
@@ -25,6 +26,7 @@ export class ChooseWordComponent implements OnInit, OnChanges {
     if (this.data && this.gameId) this.loadDefaultAnswers()
     this.showAnswers = false
     this.disableShowAnswersButton = true
+    console.log(this.gameType)
   }
 
   ngOnChanges(): void {
@@ -59,6 +61,23 @@ export class ChooseWordComponent implements OnInit, OnChanges {
     }
     this.disableShowAnswersButton = false
     alert(`You have answered ${correctTotal} / ${correctAnswers.length} correct`)
+  }
+
+  public getInfoTextFromType(type: string): string {
+    switch (type) {
+      case "multiple-choice":
+        return ` The goal of this task is to choose the right word from the selection. <br>
+        There is always only one correct choice. <br>
+        At the end of the task you can submit your answers and see how many you have guessed correctly. <br>
+        Reviewing the answers is <b>only</b> available upon submitting your solution.`
+      case "choose-definition":
+        return ` The goal of this task is to choose the correct definition matching the question <br>
+         There is always only one correct choice. <br>
+         At the end of the task you can submit your answers and see how many you have guessed correctly. <br>
+         Reviewing the answers is <b>only</b> available upon submitting your solution.`
+      default:
+        return ""
+    }
   }
 
 

@@ -1,14 +1,7 @@
 <div class="container-fluid">
 
     <div class="alert alert-info" role="alert">
-        <i class="bi bi-info-circle"></i> The goal of this task is to choose the right word from the selection. <br>
-        There is always only one correct choice. <br>
-        At the end of the task you can submit your answers and see how many you have guessed correctly. <br>
-        Reviewing the answers is <b>only</b> available upon submitting your solution.
-    </div>
-
-    <div class="alert alert-info" role="alert">
-        <i class="bi bi-info-circle"></i> The goal of this task is to choose the
+        <i class="bi bi-info-circle"></i> <span [innerHTML]="getInfoTextFromType(gameType)"></span>
     </div>
 
     <div *ngFor="let sentence of data; let i = index ">
