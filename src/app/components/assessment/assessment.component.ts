@@ -13,9 +13,9 @@ export class AssessmentComponent implements OnInit {
   public gameData
   public currentGameId: number
   public gameChoiceValue = [
-    { id: 1, label: "Multiple choice 1 (travel)", type:"multiple-choice" },
-    { id: 2, label: "Multiple choice 2 (travel)", type:"choose-definition" },
-    { id: 3, label: "Multiple choice 3 (office)", type:"multiple-choice" },
+    { id: 1, label: "Multiple choice 1 (travel)", type: "multiple-choice", key: 'mc-travel' },
+    { id: 2, label: "Multiple choice 2 (travel)", type: "choose-definition", key: 'def-travel' },
+    { id: 3, label: "Multiple choice 3 (office)", type: "multiple-choice", key: 'mc-office' },
 
   ]
   constructor() { }

@@ -1,65 +1,84 @@
 <div class="container-fluid" style="margin-top:15px;">
-    <div class="row">
-        <div class="col-md-3 border-right" >
-            <br> <br>
-            <div class="d-flex flex-column align-items-center text-center">
-                <img class="rounded-circle mt-5" width="150px" src="./../../../assets/profile-image2.jpg">
-                <span class="font-weight-bold">Test-Username</span>
-                <span class="text-black-50">s6327327@stud.uni-frankfurt.de</span><span> </span></div>
-        </div>
-
-        <div class="col-md-4 border-right border-primary">
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <h4 class="text-right">Profile Information</h4>
-            </div> <br> <br>
-            <div class="row">
-                <div class="col-sm-3">
-                  <h6 class="mb-0">Full Name</h6>
-                </div>
-                <div class="col-sm-9 text-secondary">
-                 Test User
-                </div>
-              </div>
-              <hr>
-              <div class="row">
-                <div class="col-sm-3">
-                  <h6 class="mb-0">Email</h6>
-                </div>
-                <div class="col-sm-9 text-secondary">
-                    s6327327@stud-uni.frankfurt.de
-                </div>
-              </div>
-              <hr>
-              <div class="row">
-                <div class="col-sm-3">
-                  <h6 class="mb-0">Phone</h6>
-                </div>
-                <div class="col-sm-9 text-secondary">
-                  +49 120123913
-                </div>
-              </div>
-              <hr>
-              <div class="row">
-                <div class="col-sm-3">
-                  <h6 class="mb-0">Address</h6>
-                </div>
-                <div class="col-sm-9 text-secondary">
-                  Frankfurt am Main, Berlinerstraße 9
-                </div>
-              </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <h4 class="text-right">Profile Analytics</h4>
-            </div>
-
-            <small>Progress</small>
-            <div class="progress mb-3" style="height: 5px">
-                <div class="-bar progress-bar-striped bg-primary " role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-        </div>
-
+  <div class="row">
+    <div class="col-md-3 border-right">
+      <br> <br>
+      <div class="d-flex flex-column align-items-center text-center">
+        <img class="rounded-circle mt-5" width="150px" src="./../../../assets/profile-image2.jpg">
+        <span class="font-weight-bold">Test-Username</span>
+        <span class="text-black-50">s6327327@stud.uni-frankfurt.de</span><span> </span>
+      </div>
     </div>
+
+    <div class="col-md-4 border-right border-primary">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h4 class="text-right">Profile Information</h4>
+      </div> 
+      <div class="row">
+        <div class="col-sm-3">
+          <h6 class="mb-0">Full Name</h6>
+        </div>
+        <div class="col-sm-9 text-secondary">
+          Test User
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-sm-3">
+          <h6 class="mb-0">Email</h6>
+        </div>
+        <div class="col-sm-9 text-secondary">
+          s6327327@stud-uni.frankfurt.de
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-sm-3">
+          <h6 class="mb-0">Phone</h6>
+        </div>
+        <div class="col-sm-9 text-secondary">
+          +49 120123913
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-sm-3">
+          <h6 class="mb-0">Address</h6>
+        </div>
+        <div class="col-sm-9 text-secondary">
+          Frankfurt am Main, Berlinerstraße 9
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h4 class="text-right">Profile Analytics</h4>
+      </div>
+      <small>Words learned (Travel) </small>
+      <div class="progress mb-3" style="height: 5px">
+        <div class="-bar progress-bar-striped bg-info" role="progressbar" [ngStyle]="evaluateProgressByCookie('travel_words')" aria-valuenow="80"
+          aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+
+      <small>Words learned (Flora/Fauna)</small>
+      <div class="progress mb-3" style="height: 5px">
+        <div class="-bar progress-bar-striped bg-info" role="progressbar" [ngStyle]="evaluateProgressByCookie('flora_fauna_words')" aria-valuenow="20"
+          aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+
+      <small>Words learned (Office/work)</small>
+      <div class="progress mb-3" style="height: 5px">
+        <div class="-bar progress-bar-striped bg-info" role="progressbar" [ngStyle]="evaluateProgressByCookie('office_work_words')" aria-valuenow="50"
+          aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+
+      <small>Words learned (Weather/Climate/Geography)</small>
+      <div class="progress mb-3" style="height: 5px">
+        <div class="-bar progress-bar-striped bg-info" role="progressbar" [ngStyle]="evaluateProgressByCookie('weather_climate_geography_words')" aria-valuenow="30"
+          aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    </div>
+
+  </div>
 
 </div>
