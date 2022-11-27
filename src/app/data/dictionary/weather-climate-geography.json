@@ -1,0 +1,252 @@
+[
+    {
+        "word": "sunny",
+        "translation": "sonnig",
+        "wordType": "adjective"
+    },
+    {
+        "word": "cloudy",
+        "translation": "wolkig",
+        "wordType": "adjective"
+    },
+    {
+        "word": "overcast",
+        "translation": "bedeckt",
+        "wordType": "adjective"
+    },
+    {
+        "word": "rainy",
+        "translation": "regnerisch",
+        "wordType": "adjective"
+    },
+    {
+        "word": "snowy",
+        "translation": "verschneit",
+        "wordType": "adjective"
+    },
+    {
+        "word": "foggy",
+        "translation": "neb(e)lig",
+        "wordType": "adjective"
+    },
+    {
+        "word": "windy",
+        "translation": "windig",
+        "wordType": "adjective"
+    },
+    {
+        "word": "hot",
+        "translation": "heiß",
+        "wordType": "adjective"
+    },
+    {
+        "word": "warm",
+        "translation": "warm",
+        "wordType": "adjective"
+    },
+    {
+        "word": "cold",
+        "translation": "kalt",
+        "wordType": "adjective"
+    },
+    {
+        "word": "season",
+        "translation": "Jahresziet",
+        "wordType": "noun"
+    },
+    {
+        "word": "continent",
+        "translation": "Kontinent",
+        "wordType": "noun"
+    },
+    {
+        "word": "ocean",
+        "translation": "Ozean",
+        "wordType": "noun"
+    },
+    {
+        "word": "Earth",
+        "translation": "Erde",
+        "wordType": "noun"
+    },
+    {
+        "word": "Europe",
+        "translation": "Europa",
+        "wordType": "noun"
+    },
+    {
+        "word": "Africa",
+        "translation": "Afrika",
+        "wordType": "noun"
+    },
+    {
+        "word": "North America",
+        "translation": "Nordamerika",
+        "wordType": "noun"
+    },
+    {
+        "word": "South America",
+        "translation": "Südamerika",
+        "wordType": "noun"
+    },
+    {
+        "word": "Asia",
+        "translation": "Asien",
+        "wordType": "noun"
+    },
+    {
+        "word": "Australia",
+        "translation": "Australien",
+        "wordType": "noun"
+    },
+    {
+        "word": "Antarctica",
+        "translation": "Antarktis/Antarktika",
+        "wordType": "noun"
+    },
+    {
+        "word": "west",
+        "translation": "West",
+        "wordType": "adjective"
+    },
+    {
+        "word": "east",
+        "translation": "Ost",
+        "wordType": "adjective"
+    },
+    {
+        "word": "north",
+        "translation": "Nord",
+        "wordType": "adjective"
+    },
+    {
+        "word": "south",
+        "translation": "Süd",
+        "wordType": "adjective"
+    },
+    {
+        "word": "Compass",
+        "translation": "Kompass",
+        "wordType": "noun"
+    },
+   {
+        "word": "Arctic ocean",
+        "translation": "Arktische Ozean",
+        "wordType": "noun"
+    },
+    {
+        "word": "Southern ocean",
+        "translation": "Südlicher Ozean",
+        "wordType": "noun"
+    },
+    {
+        "word": "Indian ocean",
+        "translation": "Indischer Ozean ",
+        "wordType": "noun"
+    },
+    {
+        "word": "Atlantic ocean",
+        "translation": "Atlantischer Ozean",
+        "wordType": "noun"
+    },
+    {
+        "word": "Pacific ocean",
+        "translation": "Pazifische Ozean",
+        "wordType": "noun"
+    },
+   {
+        "word": "water",
+        "translation": "Wasser",
+        "wordType": "noun"
+    },
+   {
+        "word": "sea",
+        "translation": "Meer",
+        "wordType": "noun"
+    },
+   {
+        "word": "ocean",
+        "translation": "Ozean",
+        "wordType": "noun"
+    },
+   {
+        "word": "lake",
+        "translation": "See",
+        "wordType": "noun"
+    },
+    {
+        "word": "river",
+        "translation": "Fluss",
+        "wordType": "noun"
+    },
+    {
+        "word": "swamp",
+        "translation": "Moor",
+        "wordType": "noun"
+    },
+    {
+        "word": "moon",
+        "translation": "Mond",
+        "wordType": "noun"
+    },
+    {
+        "word": "sun",
+        "translation": "Sonne",
+        "wordType": "noun"
+    },
+    {
+        "word": "temperature",
+        "translation": "Temperatur",
+        "wordType": "noun"
+    },
+   {
+        "word": "parallel",
+        "translation": "Parallele",
+        "wordType": "noun"
+    },
+   {
+        "word": "meridian",
+        "translation": "Meridian",
+        "wordType": "noun"
+    },
+   {
+        "word": "latitude",
+        "translation": "Breitengrad",
+        "wordType": "noun"
+    },
+   {
+        "word": "longitude",
+        "translation": "Längengrad",
+        "wordType": "noun"
+    },
+   {
+        "word": "height",
+        "translation": "Höhe",
+        "wordType": "noun"
+    },
+   {
+        "word": "volcano",
+        "translation": "Vulkan",
+        "wordType": "noun"
+    },
+   {
+        "word": "flag",
+        "translation": "Flagge",
+        "wordType": "noun"
+    },
+   {
+        "word": "peak",
+        "translation": "Gipfel",
+        "wordType": "noun"
+    },
+   {
+        "word": "desert",
+        "translation": "Wüste",
+        "wordType": "noun"
+    },
+    {
+        "word": "mountain",
+        "translation": "Gebirge",
+        "wordType": "noun"
+    }
+]

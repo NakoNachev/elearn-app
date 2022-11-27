@@ -4,6 +4,7 @@ import floraFauna from '../../data/dictionary/FloraFauna.json'
 import office from '../../data/dictionary/office.json'
 import { DictionaryData } from 'app/models/dictionary-data.model';
 import { TopicChoice } from 'app/models/topic-choice.model';
+import weatherClimateGeo from '../../data/dictionary/weather-climate-geography.json'
 
 @Component({
   selector: 'app-dictionary',
@@ -20,6 +21,7 @@ export class DictionaryComponent implements OnInit {
     { id: 1, label: "Travel", key: 'travel' },
     { id: 2, label: "Flora/Fauna", key: 'flora_fauna' },
     { id: 3, label: "Office/work", key: 'office_work' },
+    { id: 4, label: "Weather/Climate/Geography", key: 'weather_climate_geography' },
   ]
 
   ngOnInit(): void {
@@ -36,6 +38,10 @@ export class DictionaryComponent implements OnInit {
       case 3:
         this.dictionaryData = office.sort((a, b) => a['word'].localeCompare(b['word']))
         break
+      case 4:
+        this.dictionaryData = weatherClimateGeo.sort((a, b) => a['word'].localeCompare(b['word']))
+        break
+
     }
   }
 
