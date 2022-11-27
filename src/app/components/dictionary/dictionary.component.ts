@@ -29,6 +29,7 @@ export class DictionaryComponent implements OnInit {
   }
 
   public setDictionaryData(id: number) {
+    this.chosenWord = null
     switch (id) {
       case 1:
         this.dictionaryData = travelData.sort((a, b) => a['word'].localeCompare(b['word']))

@@ -2,111 +2,133 @@
     {
         "word": "Reptile",
         "translation": "Reptil",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈrɛptaɪl"		
+		
     },
     {
         "word": "Amphibian",
         "translation": "Amphibien",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "æmˈfɪbɪən"
     },
     {
         "word": "Mammals",
         "translation": "Säugetiere",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈmæməlz"
     },
     {
         "word": "Predator",
         "translation": "Raubtier",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈprɛdətə"
     },
     {
         "word": "Prey",
         "translation": "Beutetier",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "preɪ"
     },
     {
         "word": "Venomous",
         "translation": "giftig",
-        "wordType": "adjective"
+        "wordType": "adjective",
+		"transcription": "ˈvɛnəməs"
     },
     {
         "word": "Poisonous",
         "translation": "giftig",
-        "wordType": "adjective"
+        "wordType": "adjective",
+		"transcription": "ˈpɔɪznəs"
     },
     {
         "word": "Cobra",
         "translation": "Kobra",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈkəʊbrə"
     },
     {
         "word": "Frog",
         "translation": "Frosch",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "frɒg"
     },
     {
         "word": "Lion",
         "translation": "Löwe ",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈlaɪən"
     },
     {
         "word": "Crocodile",
         "translation": "Krokodil",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈkrɒkədaɪl"
     },
     {
         "word": "Carnivore",
         "translation": "Fleischfresser",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈkɑːnɪvɔː"
     },
     {
         "word": "Herbivore",
         "translation": "Pflanzenfresser",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈhɜːbɪˌvɔː"
     },
     {
         "word": "Omnivore",
         "translation": "Allesfresser",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈɒmnɪvɔː"
     },
     {
         "word": "Tree",
         "translation": "Baum",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "triː"
     },
     {
         "word": "Rose",
         "translation": "Rose",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "rəʊz"
     },
     {
         "word": "Thorns",
         "translation": "Dornen",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "θɔːnz"
     },
 
     {
         "word": "Daisy",
         "translation": "Gänseblümchen",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈdeɪzi"
     },
 
     {
         "word": "Weed",
         "translation": "Unkraut",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "wiːd"
     },
 
     {
         "word": "Dandelion",
         "translation": "Löwenzahn",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈdændɪlaɪən"
     },
 
     {
-        "word": "Deadly nightshade ",
+        "word": "Deadly nightshade",
         "translation": "Tollkirsche",
-        "wordType": "noun"
+        "wordType": "noun",
+		"transcription": "ˈdɛdli ˈnaɪtʃəɪd"
     }
 
 ]
