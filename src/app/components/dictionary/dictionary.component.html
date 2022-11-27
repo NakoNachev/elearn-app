@@ -1,21 +1,28 @@
 <br>
 
 <div class="container-fluid">
+
+    <div class="alert alert-info" role="alert">
+        <i class="bi bi-info-circle"></i> Below you can find a list of different topics.<br>
+        Each topic contains a list of words that could be learned. <br>
+        Upon clicking on a word, an info content card be displayed, giving the translation and transcription of the word.
+      </div>
     Please choose a topic:
 
-    <select [(ngModel)]="chosenTopic" (ngModelChange)="setDictionaryData($event)">
+    <select [(ngModel)]="chosenTopicId" (ngModelChange)="setDictionaryData($event)">
         <option *ngFor='let choice of topicChoiceValues' [ngValue]="choice.id"> {{choice.label}}</option>
     </select> <br><br>
-    <div class="row" *ngIf="chosenTopic">
+    <div class="row" *ngIf="chosenTopicId">
         <div class="col-2">
             <ul class="list-group">
                 <li *ngFor="let word of dictionaryData" style="cursor: pointer" class="list-group-item"
-                    (click)="chooseWord(word)">{{word.word}}</li>
+                    (click)="chooseWord(word)">{{word.word}} <span *ngIf="getLearnedWords().includes(word.word)"><i class="bi bi-check" style="color: green"></i></span></li>
             </ul>
         </div>
         <div class="col-5" *ngIf="chosenWord">
             <app-word-card [word]="chosenWord.word" [wordType]="chosenWord.wordType"
-                [transcription]="chosenWord.transcription" [translation]="chosenWord.translation">
+                [transcription]="chosenWord.transcription" [translation]="chosenWord.translation"
+                [topicKey]="topicChoiceValues[chosenTopicId-1].key">
 
             </app-word-card>
         </div>

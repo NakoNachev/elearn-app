@@ -71,7 +71,7 @@ export class ChooseWordComponent implements OnInit, OnChanges {
         At the end of the task you can submit your answers and see how many you have guessed correctly. <br>
         Reviewing the answers is <b>only</b> available upon submitting your solution.`
       case "choose-definition":
-        return ` The goal of this task is to choose the correct definition matching the question <br>
+        return ` The goal of this task is to choose <b>the correct definition</b> matching the question <br>
          There is always only one correct choice. <br>
          At the end of the task you can submit your answers and see how many you have guessed correctly. <br>
          Reviewing the answers is <b>only</b> available upon submitting your solution.`

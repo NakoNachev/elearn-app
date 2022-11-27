@@ -5,6 +5,7 @@ import office from '../../data/dictionary/office.json'
 import { DictionaryData } from 'app/models/dictionary-data.model';
 import { TopicChoice } from 'app/models/topic-choice.model';
 import weatherClimateGeo from '../../data/dictionary/weather-climate-geography.json'
+import { CookieService } from 'app/services/cookie.service';
 
 @Component({
   selector: 'app-dictionary',
@@ -13,21 +14,21 @@ import weatherClimateGeo from '../../data/dictionary/weather-climate-geography.j
 })
 export class DictionaryComponent implements OnInit {
 
-  constructor() { }
-  public chosenTopic: TopicChoice
+  constructor(private readonly cookieService: CookieService) { }
+  public chosenTopicId: number
   public chosenWord: DictionaryData
   public dictionaryData: DictionaryData[] = []
   public topicChoiceValues: TopicChoice[] = [
-    { id: 1, label: "Travel", key: 'travel' },
-    { id: 2, label: "Flora/Fauna", key: 'flora_fauna' },
-    { id: 3, label: "Office/work", key: 'office_work' },
-    { id: 4, label: "Weather/Climate/Geography", key: 'weather_climate_geography' },
+    { id: 1, label: "Travel", key: 'travel_words' },
+    { id: 2, label: "Flora/Fauna", key: 'flora_fauna_words' },
+    { id: 3, label: "Office/work", key: 'office_work_words' },
+    { id: 4, label: "Weather/Climate/Geography", key: 'weather_climate_geography_words' },
   ]
 
   ngOnInit(): void {
   }
 
-  public setDictionaryData(id) {
+  public setDictionaryData(id: number) {
     switch (id) {
       case 1:
         this.dictionaryData = travelData.sort((a, b) => a['word'].localeCompare(b['word']))
@@ -47,6 +48,15 @@ export class DictionaryComponent implements OnInit {
 
   public chooseWord(word: DictionaryData) {
     this.chosenWord = word
+  }
+
+  public getLearnedWords(): string[] {
+    const cookieValue = this.cookieService.getCookie(this.topicChoiceValues[this.chosenTopicId-1].key)
+    if (!cookieValue) {
+      return []
+    } else {
+      return cookieValue.split(',')
+    }
   }
 
 }
