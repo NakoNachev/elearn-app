@@ -18,16 +18,19 @@ export class ChooseWordComponent implements OnInit, OnChanges {
 
   private currentAnswers: string[]
   public showAnswers: boolean = false
+  public disableShowAnswersButton: boolean = true
   constructor() { }
 
   ngOnInit(): void {
     if (this.data && this.gameId) this.loadDefaultAnswers()
     this.showAnswers = false
+    this.disableShowAnswersButton = true
   }
 
   ngOnChanges(): void {
     if (this.data && this.gameId) this.loadDefaultAnswers()
     this.showAnswers = false
+    this.disableShowAnswersButton = true
   }
 
   public loadDefaultAnswers() {
@@ -54,6 +57,7 @@ export class ChooseWordComponent implements OnInit, OnChanges {
         correctTotal++
       }
     }
+    this.disableShowAnswersButton = false
     alert(`You have answered ${correctTotal} / ${correctAnswers.length} correct`)
   }
 

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import officeData from '../../data/multiple-choice/office.json'
 import travelData from '../../data/multiple-choice/travel.json'
+import travelData2 from '../../data/multiple-choice/travel2.json'
 @Component({
   selector: 'app-assessment',
   templateUrl: './assessment.component.html',
@@ -12,9 +13,10 @@ export class AssessmentComponent implements OnInit {
   public gameData
   public currentGameId: number
   public gameChoiceValue = [
-    {id: 1, label: "FIll in the gap game 1 (travel)"},
-    {id: 2, label: "FIll in the gap game 2 (office)"},
-    
+    { id: 1, label: "Multiple choice 1 (travel)" },
+    { id: 2, label: "Multiple choice 2 (travel)" },
+    { id: 3, label: "Multiple choice 3 (office)" },
+
   ]
   constructor() { }
 
@@ -28,6 +30,9 @@ export class AssessmentComponent implements OnInit {
         this.gameData = travelData
         break
       case 2:
+        this.gameData = travelData2
+        break
+      case 3:
         this.gameData = officeData
         break
     }

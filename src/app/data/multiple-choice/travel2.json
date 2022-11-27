@@ -1,0 +1,52 @@
+[
+    {
+        "sentence": "What is the meaning of the following definition: <br> &emsp;<u>A vehicle for carrying a small amount of goods?</u>",
+        "values": [
+            "Train",
+            "Van",
+            "Tram",
+            "Traveller"
+        ],
+        "solution": "Van"
+    },
+    {
+        "sentence": "What is the meaning of the following definition: <br> &emsp;<u>When an airplane leaves the ground to begin flying through the sky</u>",
+        "values": [
+            "Railway",
+            "Runway",
+            "Take-off",
+            "Transit"
+        ],
+        "solution": "Take-off"
+    },
+    {
+        "sentence": "What is the meaning of the following definition: <br> &emsp;<u>A two wheeled vehicle that has an engine</u>",
+        "values": [
+            "International",
+            "Platform",
+            "Tandem",
+            "Motorbike"
+        ],
+        "solution": "Motorbike"
+    },
+    {
+        "sentence": "What is the meaning of the following definition: <br> &emsp;<b>To get off from a ship</b>",
+        "values": [
+            "Disembark",
+            "Domestic",
+            "Driver",
+            "Indirect"
+        ],
+        "solution": "Disembark"
+    },
+    {
+        "sentence": "What is the meaning of the following definition: <br> &emsp;<u>The items which a person takes with them on a journey</u>",
+        "values": [
+            "Baggage",
+            "Cruise",
+            "Bike chain",
+            "Child seat"
+        ],
+        "solution": "Baggage"
+    }
+]

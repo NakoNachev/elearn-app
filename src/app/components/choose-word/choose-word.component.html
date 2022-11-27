@@ -1,7 +1,18 @@
 <div class="container-fluid">
 
+    <div class="alert alert-info" role="alert">
+        <i class="bi bi-info-circle"></i> The goal of this task is to choose the right word from the selection. <br>
+        There is always only one correct choice. <br>
+        At the end of the task you can submit your answers and see how many you have guessed correctly. <br>
+        Reviewing the answers is <b>only</b> available upon submitting your solution.
+    </div>
+
+    <div class="alert alert-info" role="alert">
+        <i class="bi bi-info-circle"></i> The goal of this task is to choose the
+    </div>
+
     <div *ngFor="let sentence of data; let i = index ">
-        <span>{{sentence.sentence}}
+        <span>{{i+1}}. &nbsp;<span [innerHTML]="sentence.sentence"> </span> &nbsp;
             <select aria-label="Default select example" (change)="changeAnswer($event.target.value, i)">
                 <option *ngFor="let option of sentence.values"> {{option}}</option>
             </select>
@@ -9,6 +20,7 @@
         <span *ngIf="showAnswers" style="color: green"> {{sentence.solution}}</span>
     </div>
     <br>
-    <button type="button" class="btn btn-outline-primary" (click)="submit()">Submit</button> 
-    <button type="button" style="margin-left: 2px;" class="btn btn-outline-primary" (click)="showHideAnswers()">Show/Hide answers</button>
+    <button type="button" class="btn btn-outline-primary" (click)="submit()">Submit</button>
+    <button type="button" style="margin-left: 2px;" class="btn btn-outline-primary"
+        (click)="showHideAnswers()" [disabled]="disableShowAnswersButton">Show/Hide answers</button>
 </div>
