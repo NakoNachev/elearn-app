@@ -6,6 +6,6 @@
     
     
     <div *ngIf="gameChoice">
-        <app-choose-word [data]="gameData" [gameId]="currentGameId" [gameType]="gameChoiceValue[currentGameId-1].type"></app-choose-word>
+        <app-choose-word [data]="gameData" [gameId]="currentGameId" [gameType]="gameChoiceValue[currentGameId-1].type" [gameKey]="gameChoiceValue[currentGameId-1].key"></app-choose-word>
     </div>
 </div>

@@ -14,6 +14,7 @@ import { ChooseWordComponent } from './components/choose-word/choose-word.compon
 import { FormsModule } from '@angular/forms';
 import { WordCardComponent } from './components/dictionary/word-card/word-card.component';
 import { CookieService } from './services/cookie.service';
+import {DragDropModule} from '@angular/cdk/drag-drop';
 
 const routes: Routes = [
   { path: '', redirectTo: 'dictionary', pathMatch: 'full'},
@@ -34,13 +35,14 @@ const routes: Routes = [
     AssessmentComponent,
     ProfileComponent,
     ChooseWordComponent,
-    WordCardComponent
+    WordCardComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
     NgbModule,
     BrowserAnimationsModule,
+    DragDropModule,
     RouterModule.forRoot(routes)
   ],
   providers: [CookieService],

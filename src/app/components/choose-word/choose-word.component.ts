@@ -1,5 +1,6 @@
 import { Component, Input, OnChanges, OnInit } from '@angular/core';
 import { MultipleChoiceData } from 'app/models/multiple-choice.model';
+import { CookieService } from 'app/services/cookie.service';
 export interface AnswersTracker {
   gameId: number
   currentAnswers: string[]
@@ -16,17 +17,17 @@ export class ChooseWordComponent implements OnInit, OnChanges {
   @Input() data: MultipleChoiceData[]
   @Input() gameId: number
   @Input() gameType: string
+  @Input() gameKey: string
 
   private currentAnswers: string[]
   public showAnswers: boolean = false
   public disableShowAnswersButton: boolean = true
-  constructor() { }
+  constructor(private readonly cookieService: CookieService) { }
 
   ngOnInit(): void {
     if (this.data && this.gameId) this.loadDefaultAnswers()
     this.showAnswers = false
     this.disableShowAnswersButton = true
-    console.log(this.gameType)
   }
 
   ngOnChanges(): void {
@@ -60,7 +61,17 @@ export class ChooseWordComponent implements OnInit, OnChanges {
       }
     }
     this.disableShowAnswersButton = false
+    this.saveDataInCookies(correctTotal)
     alert(`You have answered ${correctTotal} / ${correctAnswers.length} correct`)
+  }
+
+  private saveDataInCookies(correctTotal: number): void {
+    const cookieValue = this.cookieService.getCookie(this.gameKey)
+    if (!cookieValue) {
+      this.cookieService.setCookie(this.gameKey, correctTotal + ',')
+      return
+    }
+    this.cookieService.setCookie(this.gameKey, cookieValue + correctTotal + ',')
   }
 
   public getInfoTextFromType(type: string): string {
