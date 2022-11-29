@@ -1,0 +1,61 @@
+[
+    {
+        "Question": "Crocodiles are:",
+        "Answers": [
+            "Carnivores",
+            "Herbivores",
+            "Omnivores"
+        ],
+        "Solution": "Carnivores"
+    },
+    
+    {
+        "Question": "Roses have:",
+        "Answers": [
+            "Berries",
+            "Thorns",
+            "fruits"
+        ],
+        "Solution": "Thorns"
+    },
+    {
+        "Question": "The largest feline predator is a:",
+        "Answers": [
+            "Lion",
+            "Cheetah",
+            "Tiger",
+            "Lynx"
+        ],
+        "Solution": "Tiger"
+    },
+    {
+        "Question": "The largest mammal is a(n):",
+        "Answers": [
+            "Elephant",
+            "Blue Whale",
+            "Girafe",
+            "Killer Whale"
+        ],
+        "Solution": "Blue Whale"
+    },
+    {
+        "Question": "Of the following, which one is not poisonus:",
+        "Answers": [
+            "Deadly Nightshade",
+            "Belladonna",
+            "Bittersweet",
+            "Blackberry"
+        ],
+        "Solution": "Blackberry"
+    },
+    {
+        "Question": "The largest Reptile is:",
+        "Answers": [
+            "Saltwater Crocodile",
+            "Leatherback Sea Turtle",
+            "Reticulated Python",
+            "Komodo Dragon"
+        ],
+        "Solution": "Saltwater Crocodile"
+    }
+]
