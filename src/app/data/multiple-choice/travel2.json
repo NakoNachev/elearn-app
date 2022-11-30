@@ -1,6 +1,6 @@
 [
     {
-        "sentence": "What is the meaning of the following definition: <br> &emsp;<u>A vehicle for carrying a small amount of goods?</u>",
+        "sentence": "What is the meaning of the following definition: <br> &emsp;<i>\"A vehicle for carrying a small amount of goods?\"</i>",
         "values": [
             " ",
             "Train",
@@ -11,7 +11,7 @@
         "solution": "Van"
     },
     {
-        "sentence": "What is the meaning of the following definition: <br> &emsp;<u>When an airplane leaves the ground to begin flying through the sky</u>",
+        "sentence": "What is the meaning of the following definition: <br> &emsp;<i>\"When an airplane leaves the ground to begin flying through the sky\"</i>",
         "values": [
             " ",
             "Railway",
@@ -22,7 +22,7 @@
         "solution": "Take-off"
     },
     {
-        "sentence": "What is the meaning of the following definition: <br> &emsp;<u>A two wheeled vehicle that has an engine</u>",
+        "sentence": "What is the meaning of the following definition: <br> &emsp;<i>\"A two wheeled vehicle that has an engine\"</i>",
         "values": [
             " ",
             "International",
@@ -33,7 +33,7 @@
         "solution": "Motorbike"
     },
     {
-        "sentence": "What is the meaning of the following definition: <br> &emsp;<b>To get off from a ship</b>",
+        "sentence": "What is the meaning of the following definition: <br> &emsp;<i>\"To get off from a ship\"</i>",
         "values": [
             " ",
             "Disembark",
@@ -44,7 +44,7 @@
         "solution": "Disembark"
     },
     {
-        "sentence": "What is the meaning of the following definition: <br> &emsp;<u>The items which a person takes with them on a journey</u>",
+        "sentence": "What is the meaning of the following definition: <br> &emsp;<i>\"The items which a person takes with them on a journey\"</i>",
         "values": [
             " ",
             "Baggage",

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import officeData from '../../data/multiple-choice/office.json'
 import travelData from '../../data/multiple-choice/travel.json'
 import travelData2 from '../../data/multiple-choice/travel2.json'
@@ -10,6 +10,7 @@ import florfaunData from '../../data/match-sentence/flora_fauna.json'
 })
 export class AssessmentComponent implements OnInit {
 
+  @Input() isLearnAssessment: boolean
   public gameChoice
   public gameData
   public currentGameId: number
@@ -29,13 +30,13 @@ export class AssessmentComponent implements OnInit {
     this.currentGameId = id
     switch (id) {
       case 1:
-        this.gameData = travelData
+        this.gameData = this.isLearnAssessment ? travelData.slice(0,2) : travelData
         break
       case 2:
-        this.gameData = travelData2
+        this.gameData = this.isLearnAssessment ? travelData2.slice(0,2) : travelData2
         break
       case 3:
-        this.gameData = officeData
+        this.gameData = this.isLearnAssessment ? officeData.slice(0,2) : officeData
         break
       case 4:
         this.gameData = florfaunData
