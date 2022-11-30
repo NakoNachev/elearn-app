@@ -23,6 +23,7 @@ const routes: Routes = [
   { path: 'learning-game', component: LearningGameComponent},
   { path: 'assessment', component: AssessmentComponent},
   { path: 'profile', component: ProfileComponent},
+  { path: 'match-sentence', component: ChooseWordComponent}
   
 ]
 

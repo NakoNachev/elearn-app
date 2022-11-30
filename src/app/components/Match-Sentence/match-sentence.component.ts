@@ -1,5 +1,5 @@
 import { Component, Input, OnChanges, OnInit } from '@angular/core';
-import { MatchSentenceData } from 'app/models/match-sentence.model';
+import { MultipleChoiceData } from 'app/models/match-sentence.model';
 export interface AnswersTracker {
   gameId: number
   currentAnswers: string[]
@@ -13,7 +13,7 @@ export interface AnswersTracker {
 
 export class ChooseWordComponent implements OnInit, OnChanges {
 
-  @Input() data: MatchSentenceData[]
+  @Input() data: MultipleChoiceData[]
   @Input() gameId: number
   @Input() gameType: string
 
