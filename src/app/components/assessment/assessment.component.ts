@@ -37,9 +37,9 @@ export class AssessmentComponent implements OnInit {
       case 3:
         this.gameData = officeData
         break
-        case 4:
-          this.gameData = florfaunData
-          break
+      case 4:
+        this.gameData = florfaunData
+        break
     }
   }
 

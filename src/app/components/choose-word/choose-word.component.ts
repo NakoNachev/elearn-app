@@ -22,6 +22,7 @@ export class ChooseWordComponent implements OnInit, OnChanges {
   private currentAnswers: string[]
   public showAnswers: boolean = false
   public disableShowAnswersButton: boolean = true
+  public choices: string[] = []
   constructor(private readonly cookieService: CookieService) { }
 
   ngOnInit(): void {
@@ -74,6 +75,10 @@ export class ChooseWordComponent implements OnInit, OnChanges {
     this.cookieService.setCookie(this.gameKey, cookieValue + correctTotal + ',')
   }
 
+  public getChoiceValuesOfData() {
+    return this.data.map(it => it.choice)
+  }
+
   public getInfoTextFromType(type: string): string {
     switch (type) {
       case "multiple-choice":
@@ -86,6 +91,11 @@ export class ChooseWordComponent implements OnInit, OnChanges {
          There is always only one correct choice. <br>
          At the end of the task you can submit your answers and see how many you have guessed correctly. <br>
          Reviewing the answers is <b>only</b> available upon submitting your solution.`
+      case "match-sentence":
+        return ` The goal of this task is to choose <b>the correct first part of the sentence</b> matching the second part of the sentence <br>
+             There is always only one correct choice. <br>
+             At the end of the task you can submit your answers and see how many you have guessed correctly. <br>
+             Reviewing the answers is <b>only</b> available upon submitting your solution.`
       default:
         return ""
     }

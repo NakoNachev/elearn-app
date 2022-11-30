@@ -4,6 +4,12 @@
         <i class="bi bi-info-circle"></i> <span [innerHTML]="getInfoTextFromType(gameType)"></span>
     </div>
 
+    <div *ngIf="gameType=='match-sentence'">
+        <div *ngFor="let choice of getChoiceValuesOfData()">
+            {{choice}}
+        </div>
+    </div>
+    <br>
     <div *ngFor="let sentence of data; let i = index ">
         <span>{{i+1}}. &nbsp;<span [innerHTML]="sentence.sentence"> </span> &nbsp;
             <select aria-label="Default select example" (change)="changeAnswer($event.target.value, i)">
