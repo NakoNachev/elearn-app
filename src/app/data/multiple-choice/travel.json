@@ -2,6 +2,7 @@
     {
         "sentence": "We still have to ___ a hotel and to buy our plane tickets",
         "values": [
+            " ",
             "book",
             "make"
         ],
@@ -10,6 +11,7 @@
     {
         "sentence": " I'm leaving tomorrow and I still haven't ___ my suitcases.",
         "values": [
+            " ",
             "packed",
             "stacked"
         ],
@@ -18,6 +20,7 @@
     {
         "sentence": "I always get great deals on hotels because my friend is a ___ agent",
         "values": [
+            " ",
             "trip",
             "travel"
         ],
@@ -26,6 +29,7 @@
     {
         "sentence": "A 'bed and ___' is a private home which takes in guests.",
         "values": [
+            " ",
             "breakfast",
             "food"
         ],
@@ -34,6 +38,7 @@
     {
         "sentence": "It is often very expensive to travel during ___ season",
         "values": [
+            " ",
             "expensive",
             "peak"
         ],
@@ -42,6 +47,7 @@
     {
         "sentence": "Arranging  ___ means arranging a place to stay (like a hotel, guest house, etc.)",
         "values": [
+            " ",
             "acclimations",
             "accommodations"
         ],
@@ -50,6 +56,7 @@
     {
         "sentence": "Travel agents often ask you whether or not you would like to buy traveler's ___ ",
         "values": [
+            " ",
             "insurance",
             "policy"
         ],
@@ -58,6 +65,7 @@
     {
         "sentence": "A ___ tour/holiday is one that includes air, hotel, and often food.",
         "values": [
+            " ",
             "combined",
             "package"
         ],
@@ -66,6 +74,7 @@
     {
         "sentence": "A  ___ flight requires a passenger to change from one plane to another.",
         "values": [
+            " ",
             "connect",
             "connecting"
         ],
@@ -74,6 +83,7 @@
     {
         "sentence": "If you lose something at an airport, you should check at the airport's lost-and- ___ office.",
         "values": [
+            " ",
             "find",
             "found"
         ],

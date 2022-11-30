@@ -3,6 +3,7 @@
         "choice": "a. On Sunday my father…",
         "sentence": "…plucked the weeds in our garden.",
         "values": [
+            " ",
             "a",
             "b",
             "c"
@@ -13,6 +14,7 @@
         "choice": "b. Crocodiles even eat lions when…",
         "sentence": "…they come to close to the water.",
         "values": [
+            " ",
             "a",
             "b",
             "c"
@@ -23,6 +25,7 @@
         "choice": "c. The Tree in our neughbors garden…",
         "sentence": "…is so tall that it blocks the sunlight.",
         "values": [
+            " ",
             "a",
             "b",
             "c"
