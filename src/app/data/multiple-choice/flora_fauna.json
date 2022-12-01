@@ -1,0 +1,74 @@
+[
+    {
+        "sentence": "Lions and crocidiles are some of the _____________ predators.",
+        "values": [
+            " ",
+            "dangerous",
+            "dangerouser",
+            "dangerousest",
+            "More dangerous",
+            "Most dangerous"
+        ],
+        "solution": "Most dangerous"
+    },
+    {
+        "sentence": "The bite force of crocodiles is among the ____ in the animal kingdom",
+        "values": [
+            " ",
+            "strong",
+            "sronger",
+            "more strong",
+            "strongest",
+            "most strong"
+        ],
+        "solution": "strongest"
+    },
+    {
+        "sentence": "Too much water causes plants to ____.",
+        "values": [
+            " ",
+            "grow",
+            "expand",
+            "drown",
+            "move",
+            "shrink"
+        ],
+        "solution": "drown"
+    },
+    {
+        "sentence": "When compaired to their size, ______ are the strongest animal",
+        "values": [
+            " ",
+            "Ants",
+            "Lions",
+            "Killer Whales",
+            "Flys",
+            "Dung Beetle"
+        ],
+        "solution": "Dung Beetle"
+    },
+    {
+        "sentence": "The ____ is the fastest animal.",
+        "values": [
+            " ",
+            "Peregrine falcon",
+            "Cheetah",
+            "Ostrich",
+            "Marlin",
+            "Frigate Bird"
+        ],
+        "solution": "Peregrine falcon"
+    },
+    {
+        "sentence": "The roots of plants absorb water, nutrients and _____",
+        "values": [
+            " ",
+            "dirt",
+            "oxygen",
+            "rocks",
+            "wood",
+            "nothing else"
+        ],
+        "solution": "oxygen"
+    }
+]
