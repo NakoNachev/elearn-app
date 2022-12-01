@@ -1,0 +1,35 @@
+[
+    {
+        "choice": "a. The weather today…",
+        "sentence": "…is sunny.",
+        "values": [
+            " ",
+            "a",
+            "b",
+            "c"
+        ],
+        "solution": "a"
+    },
+    {
+        "choice": "b. The Great Pyramid of Giza…",
+        "sentence": "…is one of the Seven Wonders of the World.",
+        "values": [
+            " ",
+            "a",
+            "b",
+            "c"
+        ],
+        "solution": "b"
+    },
+    {
+        "choice": "c. Winds…",
+        "sentence": "…are caused when cold, dry air collides with warm, humid air.",
+        "values": [
+            " ",
+            "a",
+            "b",
+            "c"
+        ],
+        "solution": "c"
+    }
+]
