@@ -1,0 +1,23 @@
+<div class="container-fluid" style="margin-top: 5px;">
+    <div class="alert alert-info" role="alert">
+        <i class="bi bi-info-circle"></i>
+        In this section of the application you can check different phrases and/or explanations for the word topics found
+        in section 'dictionary'. <br>
+    </div>
+
+    <div class="row">
+        <div class="col-2">
+
+            <ul class="list-group">
+                <li *ngFor="let explanation of data" style="cursor: pointer" class="list-group-item"
+                    (click)="chooseExplanation(explanation)">{{explanation.topic}}</li>
+            </ul>
+        </div>
+
+        <div class="col-5" *ngIf="chosenExplanation">
+            <app-explanations-card [topic]="chosenExplanation.topic" [text]="chosenExplanation.explanation">
+            </app-explanations-card>
+        </div>
+    </div>
+
+</div>

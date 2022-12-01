@@ -48,9 +48,7 @@ export class ProfileComponent implements OnInit {
   public initTotalMatcherForGameStats() {
     this.keyDataMatcher = [
       { key: 'mc-travel', total: travelDataGame.length, label: "Multiple choice 1 (travel)"},
-      { key: 'def-travel', total: travelData2Game.length, label: "Multiple choice 2 (travel)" },
-      { key: 'mc-office', total: officeDataGame.length, label: "Multiple choice 3 (office)" },
-      { key: 'ms-florfaun', total: florfaunDataGame.length, label: "Match sentence (Flora and Fauna)" },
+      { key: 'def-travel', total: travelData2Game.length, label: "Multiple choice 2 (travel)" }
     ]
   }
 

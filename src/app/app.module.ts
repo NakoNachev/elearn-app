@@ -16,6 +16,8 @@ import { WordCardComponent } from './components/dictionary/word-card/word-card.c
 import { CookieService } from './services/cookie.service';
 import {DragDropModule} from '@angular/cdk/drag-drop';
 import { DragDropComponent } from './components/drag-drop/drag-drop.component';
+import {MatIconModule} from '@angular/material/icon';
+import { ExplanationsCardComponent } from './components/explanations/explanations-card/explanations-card.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'dictionary', pathMatch: 'full'},
@@ -38,7 +40,8 @@ const routes: Routes = [
     ProfileComponent,
     ChooseWordComponent,
     WordCardComponent,
-    DragDropComponent
+    DragDropComponent,
+    ExplanationsCardComponent,
   ],
   imports: [
     BrowserModule,
@@ -46,6 +49,7 @@ const routes: Routes = [
     NgbModule,
     BrowserAnimationsModule,
     DragDropModule,
+    MatIconModule,
     RouterModule.forRoot(routes)
   ],
   providers: [CookieService],

@@ -1,4 +1,18 @@
-<div class="container-fluid">
+<div class="container-fluid" style="margin-top: 5px;">
+    <div *ngIf="isLearnAssessment" class="alert alert-primary" role="alert">
+        <i class="bi bi-info-circle"></i> Welcome to the learning game. <br>
+        Here you have multiple simple examples of possible assessments. <br>
+        You can try each of them and compare your answers to the correct ones. <br>
+        When you feel ready, you can move to the assessment part of the application where your answers will be rated.
+    </div>
+
+    <div *ngIf="!isLearnAssessment" class="alert alert-danger" role="alert">
+        <i class="bi bi-exclamation-octagon-fill"></i> Welcome to the main assessment. <br>
+        Here you can choose an assessment to a given topic and test your knowledge. <br>
+        Upon completing the assessment, please click on the submit button. <br>
+        Afterwards you will be given the chance to view the correct answers.   
+    </div>
+
     Choose which game to start:
     <select [(ngModel)]="gameChoice" (ngModelChange)="setGameData($event)">
         <option *ngFor='let choice of gameChoiceValue' [ngValue]="choice.id"> {{choice.label}}</option>
@@ -6,6 +20,6 @@
     
     
     <div *ngIf="gameChoice">
-        <app-choose-word [data]="gameData" [gameId]="currentGameId" [gameType]="gameChoiceValue[currentGameId-1].type" [gameKey]="gameChoiceValue[currentGameId-1].key"></app-choose-word>
+        <app-choose-word [data]="gameData" [gameId]="currentGameId" [gameType]="gameChoiceValue[currentGameId-1].type" [gameKey]="gameChoiceValue[currentGameId-1].key" [isLearnAssessment]="isLearnAssessment"></app-choose-word>
     </div>
 </div>

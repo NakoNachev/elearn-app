@@ -18,6 +18,7 @@ export class ChooseWordComponent implements OnInit, OnChanges {
   @Input() gameId: number
   @Input() gameType: string
   @Input() gameKey: string
+  @Input() isLearnAssessment: boolean
 
   private currentAnswers: string[]
   public showAnswers: boolean = false

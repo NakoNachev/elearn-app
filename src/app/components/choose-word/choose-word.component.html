@@ -19,7 +19,7 @@
         <span *ngIf="showAnswers" style="color: green"> {{sentence.solution}}</span>
     </div>
     <br>
-    <button type="button" class="btn btn-outline-danger" (click)="submit()">Submit</button>
+    <button type="button" class="btn btn-outline-danger" (click)="submit()" [disabled]="isLearnAssessment">Submit</button>
     <button type="button" style="margin-left: 2px;" class="btn btn-outline-primary"
-        (click)="showHideAnswers()" [disabled]="disableShowAnswersButton">Show/Hide answers</button>
+        (click)="showHideAnswers()" [disabled]="disableShowAnswersButton && !isLearnAssessment">Show/Hide answers</button>
 </div>
