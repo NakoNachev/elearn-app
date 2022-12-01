@@ -25,8 +25,8 @@ export class AssessmentComponent implements OnInit {
     { id: 4, label: "Multiple choice 4 (geography)", type: "multiple-choice", key: 'mc-geo' },
     { id: 5, label: "Multiple choice 5 (flora and fauna)", type: "multiple-choice", key: 'mc-florafauna' },
     { id: 6, label: "Multiple choice 6 (flora and fauna)", type: "multiple-choice", key: 'mc-florafauna2' },
-    { id: 6, label: "Match sentence (Flora and Fauna)", type: "match-sentence", key: 'ms-florfaun' },
-    { id: 7, label: "Match sentence (Geography)", type: "match-sentence", key: 'ms-geo' },
+    { id: 7, label: "Match sentence (Flora and Fauna)", type: "match-sentence", key: 'ms-florfaun' },
+    { id: 8, label: "Match sentence (Geography)", type: "match-sentence", key: 'ms-geo' },
 
   ]
   constructor() { }
