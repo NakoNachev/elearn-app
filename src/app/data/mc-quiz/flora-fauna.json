@@ -1,67 +1,67 @@
 [
     {
-        "Question": "Crocodiles are:",
-        "Answers": [
+        "sentence": "Crocodiles are:",
+        "values": [
             " ",
             "Carnivores",
             "Herbivores",
             "Omnivores"
         ],
-        "Solution": "Carnivores"
+        "solution": "Carnivores"
     },
     
     {
-        "Question": "Roses have:",
-        "Answers": [
+        "sentence": "Roses have:",
+        "values": [
             " ",
             "Berries",
             "Thorns",
             "fruits"
         ],
-        "Solution": "Thorns"
+        "solution": "Thorns"
     },
     {
-        "Question": "The largest feline predator is a:",
-        "Answers": [
+        "sentence": "The largest feline predator is a:",
+        "values": [
             " ",
             "Lion",
             "Cheetah",
             "Tiger",
             "Lynx"
         ],
-        "Solution": "Tiger"
+        "solution": "Tiger"
     },
     {
-        "Question": "The largest mammal is a(n):",
-        "Answers": [
+        "sentence": "The largest mammal is a(n):",
+        "values": [
             " ",
             "Elephant",
             "Blue Whale",
             "Girafe",
             "Killer Whale"
         ],
-        "Solution": "Blue Whale"
+        "solution": "Blue Whale"
     },
     {
-        "Question": "Of the following, which one is not poisonus:",
-        "Answers": [
+        "sentence": "Of the following, which one is not poisonus:",
+        "values": [
             " ",
             "Deadly Nightshade",
             "Belladonna",
             "Bittersweet",
             "Blackberry"
         ],
-        "Solution": "Blackberry"
+        "solution": "Blackberry"
     },
     {
-        "Question": "The largest Reptile is:",
-        "Answers": [
+        "sentence": "The largest Reptile is:",
+        "values": [
             " ",
             "Saltwater Crocodile",
             "Leatherback Sea Turtle",
             "Reticulated Python",
             "Komodo Dragon"
         ],
-        "Solution": "Saltwater Crocodile"
+        "solution": "Saltwater Crocodile"
     }
 ]
