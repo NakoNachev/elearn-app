@@ -1,0 +1,134 @@
+[
+    {
+        "sentence": "<br> &emsp;<i>\"What is the biggest continent on Earth by area?\"</i>",
+        "values": [
+            " ",
+            "Europe",
+            "Asia",
+            "North America",
+            "South America"
+        ],
+        "solution": "Asia"
+    },
+    {
+        "sentence": "<br> &emsp;<i>\"What is the smallest continent on Earth by area?\"</i>",
+        "values": [
+            " ",
+            "Australia",
+            "Europe",
+            "Africa",
+            "Antarctica"
+        ],
+        "solution": "Australia"
+    },
+    {
+        "sentence": "<br> &emsp;<i>\"What is the most populous country?\"</i>",
+        "values": [
+            " ",
+            "Russia",
+            "China",
+            "USA",
+            "India"
+        ],
+        "solution": "China"
+    },
+    {
+        "sentence": " <br> &emsp;<i>\"What is the least populous country?\"</i>",
+        "values": [
+            " ",
+            "Vatican city",
+            "Liechtenstein",
+            "Monaco",
+            "Andorra"
+        ],
+        "solution": "Vatican city"
+    },
+    {
+        "sentence": "<br> &emsp;<i>\"What is the world’s deepest river?\"</i>",
+        "values": [
+            " ",
+            "Amazon River",
+            "Mekong River",
+            "Danube River",
+            "Congo River"
+        ],
+        "solution": "Congo river"
+    },
+    {
+        "sentence": "<br> &emsp;<i>\"What is the world’s longest lake?\"</i>",
+        "values": [
+            " ",
+            "Geneva Lake",
+            "Lake Baikal",
+            "Lake Tanganyika",
+            "Lake Victoria"
+        ],
+        "solution": "Lake Tanganyika"
+    },
+    {
+        "sentence": "<br> &emsp;<i>\"What is the world’s deepest lake?\"</i>",
+        "values": [
+            " ",
+            "Lake Superior",
+            "Lake Michigan",
+            "Lake Vostok",
+            "Lake Baikal"
+        ],
+        "solution": "Lake Baikal"
+    },
+    {
+        "sentence": " <br> &emsp;<i>\"What is the world’s largest ocean?\"</i>",
+        "values": [
+            " ",
+            "Pacific Ocean",
+            "Atlantic Ocean",
+            "Indian Ocean",
+            "Arctic Ocean"
+        ],
+        "solution": "Pacific Ocean"
+    },
+    {
+        "sentence": "<br> &emsp;<i>\"What is the world’s smallest ocean?\"</i>",
+        "values": [
+            " ",
+            "Indian Ocean",
+            "Pacific Ocean",
+            "Arctic Ocean",
+            "Antarctic Ocean"
+        ],
+        "solution": "Arctic Ocean"
+    },
+    {
+        "sentence": "<br> &emsp;<i>\"What is the world’s highest peak? \"</i>",
+        "values": [
+            " ",
+            "Mount Everest",
+            "Manaslu",
+            "Makalu",
+            "Cho Oyu"
+        ],
+        "solution": "Mount Everest"
+    }
+    {
+        "sentence": "<br> &emsp;<i>\"Where does the Sun rise from? \"</i>",
+        "values": [
+            " ",
+            "east",
+            "west",
+            "north",
+            "south"
+        ],
+        "solution": "east"
+    }
+    {
+        "sentence": "<br> &emsp;<i>\"Where does the Sun set? \"</i>",
+        "values": [
+            " ",
+            "east",
+            "west",
+            "north",
+            "south"
+        ],
+        "solution": "west"
+    }
+]
