@@ -1,0 +1,35 @@
+<div class="container-fluid">
+    <div class="row">
+
+
+        <div class="example-container col">
+            <h4>Start</h4>
+
+            <div cdkDropList #start2="cdkDropList" [cdkDropListData]="start"
+                [cdkDropListConnectedTo]="[venomous, poisonus]" class="example-list"
+                (cdkDropListDropped)="drop($event)">
+                <div class="example-box" *ngFor="let item of start" cdkDrag>{{item}}</div>
+            </div>
+        </div>
+
+        <div class="example-container col">
+            <h4>Poisonous</h4>
+
+            <div cdkDropList #poisonus="cdkDropList" [cdkDropListData]="pois"
+                [cdkDropListConnectedTo]="[venomous, start2]" class="example-list" (cdkDropListDropped)="drop($event)">
+                <div class="example-box" *ngFor="let item of pois" cdkDrag>{{item}}</div>
+            </div>
+        </div>
+
+        <div class="example-container col">
+            <h4>Venomous</h4>
+
+            <div cdkDropList #venomous="cdkDropList" [cdkDropListData]="ven"
+                [cdkDropListConnectedTo]="[poisonus, start2]" class="example-list" (cdkDropListDropped)="drop($event)">
+                <div class="example-box" *ngFor="let item of ven" cdkDrag>{{item}}</div>
+            </div>
+        </div>
+    </div>
+
+
+</div>

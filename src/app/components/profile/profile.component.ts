@@ -2,9 +2,12 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import travelData from '../../data/dictionary/travel.json'
 import floraFauna from '../../data/dictionary/FloraFauna.json'
 import office from '../../data/dictionary/office.json'
+import officeDataGame from '../../data/multiple-choice/office.json'
+import travelDataGame from '../../data/multiple-choice/travel.json'
+import travelData2Game from '../../data/multiple-choice/travel2.json'
+import florfaunDataGame from '../../data/match-sentence/flora_fauna.json'
 import weatherClimateGeo from '../../data/dictionary/weather-climate-geography.json'
 import { CookieService } from 'app/services/cookie.service';
-import { NgIf } from '@angular/common';
 
 @Component({
   selector: 'app-profile',
@@ -16,7 +19,10 @@ export class ProfileComponent implements OnInit {
 
   constructor(private readonly cookieService: CookieService) { }
   public statsForGames
+  public travelDataGame = travelDataGame
+  public keyDataMatcher = []
   ngOnInit(): void {
+    this.initTotalMatcherForGameStats()
     this.statsForGames = this.evaluateStatsForGames()
     console.log("this.statsForGames", this.statsForGames)
   }
@@ -39,6 +45,15 @@ export class ProfileComponent implements OnInit {
     }
   }
 
+  public initTotalMatcherForGameStats() {
+    this.keyDataMatcher = [
+      { key: 'mc-travel', total: travelDataGame.length, label: "Multiple choice 1 (travel)"},
+      { key: 'def-travel', total: travelData2Game.length, label: "Multiple choice 2 (travel)" },
+      { key: 'mc-office', total: officeDataGame.length, label: "Multiple choice 3 (office)" },
+      { key: 'ms-florfaun', total: florfaunDataGame.length, label: "Match sentence (Flora and Fauna)" },
+    ]
+  }
+
   public evaluateStatsForGames() {
     const gameKeys: string[] = ['mc-travel', 'def-travel', 'mc-office']
     let stats = {}
@@ -53,14 +68,15 @@ export class ProfileComponent implements OnInit {
     if (!cookieValue) return null
     const cookieValuesAsArray: number[] = cookieValue.split(',').filter(it => it != '').map(it => parseInt(it))
     let tendency: number
-    let average: number
+    let average: string
+    let divider = this.keyDataMatcher.find(it => it['key'] == cookieName)['total']
     if (cookieValuesAsArray.length == 1) {
       tendency = null
-      average = cookieValuesAsArray[0]
+      average = ((cookieValuesAsArray[0]/divider)*100).toFixed(0)  + '%'
       return { tendency: null, average: average }
     } else {
       tendency = -(cookieValuesAsArray[cookieValuesAsArray.length - 1] - cookieValuesAsArray[cookieValuesAsArray.length - 2])
-      average = this.average(cookieValuesAsArray)
+      average = ((this.average(cookieValuesAsArray)/divider)*100).toFixed(0) + '%' 
       return { tendency: tendency, average: average }
     }
   }
