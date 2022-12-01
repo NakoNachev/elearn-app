@@ -1,8 +1,10 @@
 <div class="container-fluid" style="margin-top: 5px;">
     <div class="alert alert-info" role="alert">
         <i class="bi bi-info-circle"></i>
-        In this section of the application you can check different phrases and/or explanations for the word topics found
+        In this section you can check different phrases and/or explanations for the word topics found
         in section 'dictionary'. <br>
+        Next to each phrase/explanation you will find their category in order to better orientate yourself for the topic. <br>
+        There are also general topics to refresh your memory.
     </div>
 
     <div class="row">
@@ -10,12 +12,16 @@
 
             <ul class="list-group">
                 <li *ngFor="let explanation of data" style="cursor: pointer" class="list-group-item"
-                    (click)="chooseExplanation(explanation)">{{explanation.topic}}</li>
+                    (click)="chooseExplanation(explanation)">{{explanation.topic}}
+                    <span *ngIf="explanation.category == 'general'" placement="top" ngbTooltip="General phrases/explanations"> <i class="bi bi-globe"></i> </span> 
+                    <span *ngIf="explanation.category == 'travel'" placement="top" ngbTooltip="Travel phrases/explanations"> <i class="bi bi-airplane"></i> </span>
+                    <span *ngIf="explanation.category == 'flora'"><i class="bi bi-flower2"> </i> </span></li>
             </ul>
         </div>
 
         <div class="col-5" *ngIf="chosenExplanation">
-            <app-explanations-card [topic]="chosenExplanation.topic" [text]="chosenExplanation.explanation">
+            <app-explanations-card [topic]="chosenExplanation.topic" [text]="chosenExplanation.explanation"
+            [category]="chosenExplanation.category">
             </app-explanations-card>
         </div>
     </div>

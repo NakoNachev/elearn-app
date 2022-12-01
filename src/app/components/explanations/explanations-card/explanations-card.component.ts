@@ -9,6 +9,7 @@ export class ExplanationsCardComponent implements OnInit {
 
   @Input() topic: string
   @Input() text: string
+  @Input() category: string
 
   constructor() { }
 

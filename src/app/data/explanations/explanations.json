@@ -1,0 +1,42 @@
+[
+    {
+        "topic": "Steigerung",
+        "explanation": "Hauptfälle: Endungen -er und -est <br> -y am Ende: y durch i ersetzen und normale Endung folgt<br> -e am Ende: nur r oder st anhängen<br> Vokal vor letztem Konsonant: Konsonant doppeln und Endung anhängen<br> Bei mehreren Silben: more und most vorhängen, keine Endung nötig",
+        "category": "general"
+    },
+    {
+        "topic": "Unterschied Poisonous und Venomous",
+        "explanation": "<b>Poisonous</b>: Wenn man es einnimmt (z.B. durch Essen oder Trinken) wird man vergiftet.<br> <b>Venomous</b>: Wenn Gift durch z.B. einen Biss in den Blut oder Nervenkreislauf kommt.",
+        "category": "general"
+    },
+    {
+        "topic": "Public transportation",
+        "explanation": "<b>Public transportation</b> (British <b>public transport</b>) is a system of vehicles such as buses and trains which operate at regular times on fixed routes and are used by the public.",
+        "category": "travel"
+    },
+    {
+        "topic": "Flight",
+        "explanation": "A journey in an aircraft is a <b>flight</b>. <br><b>Flight</b> also means an aircraft that is making a particular journey.<br>I'll never forget my first <b>flight</b>.<br><b>Flight</b> 474 to Buenos Aires is now boarding at gate 9",
+        "category": "travel"
+    },
+    {
+        "topic": "To commute",
+        "explanation": "<b>To commute</b> is to make the same journey regularly between work and home.<br>It's exhausting <b>commuting</b> from Brighton to London every day.",
+        "category": "travel"
+    },
+    {
+        "topic": "Check-in",
+        "explanation": "<b>Check-in</b> is the place at an airport where you show your ticket so that you can be told where you will be sitting.",
+        "category": "travel"
+    },
+    {
+        "topic": "Journey",
+        "explanation": "A journey is traveling from one place to another, especially in a vehicle.<br>I love going on long <b>journeys</b>.",
+        "category": "travel"
+    },
+    {
+        "topic": "Adjectives (-ed, -ing)",
+        "explanation": "When describing an event or situation, it is possible to use either adjective ending – depending on the context and your meaning. The same rules still apply – if you are describing someone’s feelings, then you would use –ed, and if you are describing the characteristic of the event, then you would use – ing.<br>E.g. <i>“The film premiere was very exciting.”</i><br> <i>“The fans were depressed at the match.”</i><br><br>Using <b>both</b> at the same time<br>Once you have got the hang of both endings, you can even use both of them in the same sentence – but as always, just make sure that you have the correct ending for the intended meaning! <br> <i>E.g. “The audience felt thrilled to see such an exciting event.”<i>",
+        "category": "general"
+    }
+]

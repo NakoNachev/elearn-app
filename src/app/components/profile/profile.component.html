@@ -1,7 +1,7 @@
 <div class="container-fluid" style="margin-top:15px;">
   <div class="row">
     <div class="col-md-3 border-right">
-      <br> <br>
+      <br> 
       <div class="d-flex flex-column align-items-center text-center">
         <img class="rounded-circle mt-5" width="150px" src="./../../../assets/profile-image2.jpg">
         <span class="font-weight-bold">Test-Username</span>
@@ -12,7 +12,7 @@
     <div class="col-md-4 border-right border-primary">
       <div class="d-flex justify-content-between align-items-center mb-3">
         <h4 class="text-right">Profile Information</h4>
-      </div> 
+      </div>
       <div class="row">
         <div class="col-sm-3">
           <h6 class="mb-0">Full Name</h6>
@@ -56,37 +56,57 @@
       </div>
       <small>Words learned (Travel) </small>
       <div class="progress mb-3" style="height: 5px">
-        <div class="-bar progress-bar-striped bg-info" role="progressbar" [ngStyle]="evaluateProgressByCookieForWords('travel_words')" aria-valuenow="80"
-          aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="-bar progress-bar-striped bg-info" role="progressbar"
+          [ngStyle]="evaluateProgressByCookieForWords('travel_words')" aria-valuenow="80" aria-valuemin="0"
+          aria-valuemax="100"></div>
       </div>
 
       <small>Words learned (Flora/Fauna)</small>
       <div class="progress mb-3" style="height: 5px">
-        <div class="-bar progress-bar-striped bg-info" role="progressbar" [ngStyle]="evaluateProgressByCookieForWords('flora_fauna_words')" aria-valuenow="20"
-          aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="-bar progress-bar-striped bg-info" role="progressbar"
+          [ngStyle]="evaluateProgressByCookieForWords('flora_fauna_words')" aria-valuenow="20" aria-valuemin="0"
+          aria-valuemax="100"></div>
       </div>
 
       <small>Words learned (Office/work)</small>
       <div class="progress mb-3" style="height: 5px">
-        <div class="-bar progress-bar-striped bg-info" role="progressbar" [ngStyle]="evaluateProgressByCookieForWords('office_work_words')" aria-valuenow="50"
-          aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="-bar progress-bar-striped bg-info" role="progressbar"
+          [ngStyle]="evaluateProgressByCookieForWords('office_work_words')" aria-valuenow="50" aria-valuemin="0"
+          aria-valuemax="100"></div>
       </div>
 
       <small>Words learned (Weather/Climate/Geography)</small>
       <div class="progress mb-3" style="height: 5px">
-        <div class="-bar progress-bar-striped bg-info" role="progressbar" [ngStyle]="evaluateProgressByCookieForWords('weather_climate_geography_words')" aria-valuenow="30"
+        <div class="-bar progress-bar-striped bg-info" role="progressbar"
+          [ngStyle]="evaluateProgressByCookieForWords('weather_climate_geography_words')" aria-valuenow="30"
           aria-valuemin="0" aria-valuemax="100"></div>
       </div>
 
-      <div *ngFor="let game of keyDataMatcher">
-        {{game.label}} <br>
-        <small> Average {{statsForGames[game.key]? statsForGames[game.key]['average'] : 'No data'}} </small>
+      <!-- <div *ngFor="let game of keyDataMatcher">
+        {{game.label}} 
+        <span> Average {{statsForGames[game.key]? statsForGames[game.key]['average'] : 'No data'}} </span>
         <span *ngIf="statsForGames[game.key]">
           <span *ngIf="statsForGames[game.key]['tendency'] > 0"> Tendency <i class="bi bi-graph-up-arrow" style="color: green"></i> </span>
           <span *ngIf="statsForGames[game.key]['tendency'] < 0"> Tendency <i class="bi bi-graph-down-arrow" style="color: red"></i> </span>
           <span *ngIf="statsForGames[game.key]['tendency'] == 0"> Tendency <i class="bi bi-arrow-right"></i> </span>
         </span>
         <span *ngIf="!statsForGames[game.key]"> No data for tendency</span>  
+      </div> -->
+
+      <div class="row justify-content-md-center" style="margin-left: 5px;">
+        <div class="card col-5" *ngFor="let game of keyDataMatcher" style="margin-right: 5px;">
+          <div class="card-body">
+            <small class="card-title"><b> {{game.label}} </b></small>
+            <hr>
+            <span> Average: {{statsForGames[game.key]? statsForGames[game.key]['average'] : 'No data'}} </span>
+            <span *ngIf="statsForGames[game.key]">
+              <span *ngIf="statsForGames[game.key]['tendency'] > 0"> Tendency: <i class="bi bi-graph-up-arrow" style="color: green"></i> </span>
+              <span *ngIf="statsForGames[game.key]['tendency'] < 0"> Tendency: <i class="bi bi-graph-down-arrow" style="color: red"></i> </span>
+              <span *ngIf="statsForGames[game.key]['tendency'] == 0"> Tendency: <i class="bi bi-arrow-right"></i> </span>
+            </span>
+            <span *ngIf="!statsForGames[game.key]"> No data for tendency</span>
+          </div>
+        </div>
       </div>
     </div>
 

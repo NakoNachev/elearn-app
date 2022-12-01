@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { TopicChoice } from 'app/models/topic-choice.model';
-import explanations from '../../data/explanations/flora_fauna.json'
+import explanations from '../../data/explanations/explanations.json'
 @Component({
   selector: 'app-explanations',
   templateUrl: './explanations.component.html',
@@ -8,14 +7,8 @@ import explanations from '../../data/explanations/flora_fauna.json'
 })
 export class ExplanationsComponent implements OnInit {
 
-  public data = explanations
+  public data = explanations.sort((a, b) => a['topic'].localeCompare(b['topic']))
   public chosenExplanation
-  public topicChoiceValues: TopicChoice[] = [
-    { id: 1, label: "Flora/Fauna", key: 'travel_words' },
-    { id: 2, label: "Flora/Fauna", key: 'flora_fauna_words' },
-    { id: 3, label: "Office/work", key: 'office_work_words' },
-    { id: 4, label: "Weather/Climate/Geography", key: 'weather_climate_geography_words' },
-  ]
   constructor() { }
 
 
