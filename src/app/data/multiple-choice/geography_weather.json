@@ -1,0 +1,74 @@
+[
+    {
+        "sentence": "The capital of  ________ is Rome.",
+        "values": [
+            " ",
+            "Italy",
+            "France",
+            "Germany",
+            "Austria",
+            "Spain"
+        ],
+        "solution": "Italy"
+    },
+    {
+        "sentence": "The capital of _______ is Paris.",
+        "values": [
+            " ",
+            "Slovenia",
+            "France",
+            "Serbia",
+            "Croatia",
+            "Andorra"
+        ],
+        "solution": "France"
+    },
+    {
+        "sentence": "_______________ is called the Land of the Rising Sun.",
+        "values": [
+            " ",
+            "Bangladesh",
+            "India",
+            "South Korea",
+            "China",
+            "Japan"
+        ],
+        "solution": "Japan"
+    },
+    {
+        "sentence": "Global average temperature is currently around ___ degrees Celsius.",
+        "values": [
+            " ",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "solution": "14"
+    },
+    {
+        "sentence": "The largest desert is in _____________ .",
+        "values": [
+            " ",
+            "Asia",
+            "Europe",
+            "Antarctica",
+            "Africa",
+            "North America"
+        ],
+        "solution": "Antarctica"
+    },
+    {
+        "sentence": "We use to measure how cold or hot the weather is with the element _____ .",
+        "values": [
+            " ",
+            "humidity",
+            "temperature",
+            "precipitation",
+            "water",
+            "wind"
+        ],
+        "solution": "temperature"
+    }
+]
