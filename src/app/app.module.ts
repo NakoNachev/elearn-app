@@ -15,6 +15,7 @@ import { FormsModule } from '@angular/forms';
 import { WordCardComponent } from './components/dictionary/word-card/word-card.component';
 import { CookieService } from './services/cookie.service';
 import {DragDropModule} from '@angular/cdk/drag-drop';
+import { DragDropComponent } from './components/drag-drop/drag-drop.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'dictionary', pathMatch: 'full'},
@@ -23,7 +24,7 @@ const routes: Routes = [
   { path: 'learning-game', component: LearningGameComponent},
   { path: 'assessment', component: AssessmentComponent},
   { path: 'profile', component: ProfileComponent},
-  { path: 'match-sentence', component: ChooseWordComponent}
+  { path: 'drag-drop', component: DragDropComponent}
   
 ]
 
@@ -37,6 +38,7 @@ const routes: Routes = [
     ProfileComponent,
     ChooseWordComponent,
     WordCardComponent,
+    DragDropComponent
   ],
   imports: [
     BrowserModule,
