@@ -14,107 +14,127 @@
     {
         "word": "Baggage",
         "translation": "The items which a person takes with them on a journey. ",
-        "wordType": "noun"
+        "wordType": "noun",
+        "transcription": "ˈbægɪʤ"
     },
     {
         "word": "Check-in",
         "translation": "An area which deals with customer documents prior to travelling. ",
-        "wordType": "noun"
+        "wordType": "noun",
+        "transcription": "ʧɛk-ɪn"
     },
     {
         "word": "Coach",
         "translation": "A large vehicle for carrying many people, like a bus but for long journeys. ",
-        "wordType": "noun"
+        "wordType": "noun",
+        "transcription": "kəʊʧ"
     },
     {
         "word": "Commute",
         "translation": "The act of travelling from a fixed location to another destination regularly. ",
-        "wordType": "verb"
+        "wordType": "verb",
+        "transcription": "kəˈmjuːt"
     },
     {
         "word": "Crew",
         "translation": "The people who work on board a plane or ship. ",
-        "wordType": "noun"
+        "wordType": "noun",
+        "transcription": "kruː"
     },
     {
         "word": "Delay",
         "translation": "When a method of transport is not running to the time originally anticipated.  ",
-        "wordType": "noun"
+        "wordType": "noun",
+        "transcription": "dɪˈleɪ"
     },
     {
         "word": "Depart",
         "translation": "To move from a place where a person is currently situated. ",
-        "wordType": "verb"
+        "wordType": "verb",
+        "transcription": "dɪˈpɑːt"
     },
     {
         "word": "Departure gate",
         "translation": "An exit which enables travellers to enter an airplane. ",
-        "wordType": "noun"
+        "wordType": "noun",
+        "transcription": "dɪˈpɑːʧə geɪt"
     },
     {
         "word": "Direct",
         "translation": "To travel to a destination without making any stops. ",
-        "wordType": "adjective"
+        "wordType": "adjective",
+        "transcription": "dɪˈrɛkt"
     },
     {
         "word": "Flight",
         "translation": "The act of an airplane making its way to its destination. ",
-        "wordType": "noun"
+        "wordType": "noun",
+        "transcription": "flaɪt"
     },
     {
         "word": "Passengers",
         "translation": "The people who use a mode of transport controlled by another person. ",
-        "wordType": "noun"
+        "wordType": "Passengers",
+        "transcription": "ˈpæsɪnʤəz"
     },
     {
         "word": "Passport",
         "translation": "An important document necessary for travel. ",
-        "wordType": "noun"
+        "wordType": "noun",
+        "transcription": "ˈpɑːspɔːt"
     },
     {
         "word": "Take-off",
         "translation": "When an airplane leaves the ground to begin flying through the sky. ",
-        "wordType": "verb"
+        "wordType": "verb",
+        "transcription": "ˈteɪkɒf"
     },
     {
         "word": "Ticket",
         "translation": "A piece of paper or card used as documentation to allow travel. ",
-        "wordType": "noun"
+        "wordType": "noun",
+        "transcription": "ˈtɪkɪt"
     },
     {
         "word": "Ticket counter",
         "translation": "A service desk which sell tickets or deals with ticket enquiries. ",
-        "wordType": "noun"
+        "wordType": "noun",
+        "transcription": "ˈtɪkɪt ˈkaʊntə"
     },
 
     {
         "word": "Ticket inspector",
         "translation": "A person who checks passenger’s tickets for validity. ",
-        "wordType": "noun"
+        "wordType": "noun",
+        "transcription": "ˈtɪkɪt ɪnˈspɛktə"
     },
 
     {
         "word": "Ticket machine",
         "translation": "An electronic device which enables customers to purchase tickets. ",
-        "wordType": "noun"
+        "wordType": "noun",
+        "transcription": "ˈtɪkɪt məˈʃiːn"
     },
 
     {
         "word": "Tracks",
         "translation": "The metal runners that direct a train. ",
-        "wordType": "noun"
+        "wordType": "noun",
+        "transcription": "træks"
     },
 
     {
         "word": "Train",
         "translation": "A vehicle that travels on a railway tracks. ",
-        "wordType": "noun"
+        "wordType": "noun",
+        "transcription": "treɪn"
     },
 
     {
         "word": "Train station",
         "translation": "A building used to receive people who travel by train. ",
-        "wordType": "noun"
+        "wordType": "noun",
+        "transcription": "treɪn ˈsteɪʃən"
     }
 
 ]
