@@ -1,7 +1,7 @@
 [
     {
         "topic": "Steigerung",
-        "explanation": "Hauptfälle: Endungen -er und -est <br> -y am Ende: y durch i ersetzen und normale Endung folgt<br> -e am Ende: nur r oder st anhängen<br> Vokal vor letztem Konsonant: Konsonant doppeln und Endung anhängen<br> Bei mehreren Silben: more und most vorhängen, keine Endung nötig",
+        "explanation": "Main cases: endings '-er' and '-est' <br> -y at the end: replace 'y with 'i' and normal ending follows<br>-e at the end: only append 'r' or 'st'<br> Vowel before the last consonant: double the consonant and add the ending<br> If there are several syllables: add 'more' and 'most', no ending necessary",
         "category": "general"
     },
     {
@@ -32,6 +32,16 @@
     {
         "topic": "Journey",
         "explanation": "A journey is traveling from one place to another, especially in a vehicle.<br>I love going on long <b>journeys</b>.",
+        "category": "travel"
+    },
+    {
+        "topic": "Trip",
+        "explanation": "A trip is a journey in which you go somewhere, usually for a short time, and come back again.<br>We're going on a <b>trip</b> to Norway this summer.",
+        "category": "travel"
+    },
+    {
+        "topic": "Voyage",
+        "explanation": "A voyage is a long journey, especially by ship.<br>He was a young sailor on his first sea <b>voyage</b>.",
         "category": "travel"
     },
     {
